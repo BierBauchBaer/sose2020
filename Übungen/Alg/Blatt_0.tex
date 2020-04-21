@@ -1,0 +1,33 @@
+\documentclass[11pt,a4paper]{scrartcl}
+
+\newcommand{\blatt}{0}
+\newcommand{\fach}{Algebra II}
+\input{options.tex}
+\input{math.tex}
+
+\begin{document}
+\section{Was besagt der Hauptsatz der Galoistheorie? Geben Sie ein Anwendungsbeispiel.}
+Der Hauptsatz der Galoistheorie besagt, dass die Untergruppen der Galoisgruppe einer Körpererweiterung den Zwischenkörpern der Körpererweiterung entsprechen. Ein Anwendungsbeispiel ist, Zwischenkörper zu finden.
+\section{Bestimmen sie $\gal\nOf{f\nOf{x},\mQ}$ in den folgenden Fällen:}
+\subsection{$f\nOf{x} = x^3-2 $}
+Drei Nullstellen: $\alpha_1 = \sqrt[3]{2}$, $\alpha_2 = \sqrt[3]{2} \mE{\mI  \frac{2\pi}{3}}$, $\alpha_3 = \sqrt[3]{2} \mE{\mI 2 \frac{2\pi}{3}}$\\
+Zerfällungskörper: $\mQ\nOf{\alpha_1,\alpha_2,\alpha_3}$\\
+Permutation der Nullstellen (3)\\
+$\rightarrow$ $\gal\nOf{f\nOf{x},\mQ} = S_3$
+\subsection{$f\nOf{x} = x^4-2$}
+Vier Nullstellen: $\alpha_1 = \sqrt[4]{2}$, $\alpha_2 = \sqrt[4]{2} \mE{\mI \frac{2\pi}{4}}$, $\alpha_3 = \sqrt[4]{2} \mE{\mI 2 \frac{2\pi}{4}}$, $\alpha_4 = \sqrt[4]{2} \mE{\mI 3 \frac{2\pi}{4}}$\\
+Zerfällungskörper: $\mQ\nOf{\mI,\sqrt[4]{2}}$ \\
+Permutation der Nullstellen (8) \\
+$\rightarrow$ $\gal\nOf{f\nOf{x},\mQ} = D_4$
+\subsection{$f\nOf{x} = x^4 - 4 x^2 + 2$}
+Vier Nullstellen: $y=x^2$ $y_{\pm} = 2 \pm \sqrt{4-2}$ $x_{1,2,3,4} = \pm \sqrt{2 \pm \sqrt{2}}$ \\
+Zerfällungskörper: $\mQ\nOf{\sqrt{2 + \sqrt{2}}}$ \\
+Die Galoisgruppe ist $S_2 \times S_2$
+\subsection{$f\nOf{x} = x^3 - 3x + 1$}
+Nullstellen: \\
+Zerfällungskörper: \\
+Galoisgruppe:
+\section{Für Beispiele in 2: Explizit}
+\subsection{Verband der Untergruppen $\gal\nOf{f\nOf{x},\mQ}$}
+\subsection{Verband der Zwischenkörper $\mQ \subset E$}
+\end{document}

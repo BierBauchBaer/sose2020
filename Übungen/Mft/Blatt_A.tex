@@ -1,0 +1,75 @@
+\documentclass[11pt,a4paper]{scrartcl}
+
+\newcommand{\blatt}{A}
+\newcommand{\fach}{Mannigfaltigkeiten}
+\input{options.tex}
+\input{math.tex}
+
+\begin{document}
+	\section{Topologische Grundlagen}
+	Seien $\nOf{M,O_M}$ und $\nOf{N,O_N}$ zwei Hausdorffräume.
+	\subsection{Zeigen Sie, dass in der Teilraumtopologie abgeschlossene Teilmengen kompakter Mengen auch kompakt sind.}
+	Kompakte Menge: Jede offene Überdeckung besitzt endliche Teilüberdeckung. Überdeckung im Teilraum $\rightarrow$ Überdeckung im Raum $\rightarrow$ endliche Überdeckung im Raum $\rightarrow$ Per Schnitt mit Menge: Endliche offene Überdeckung.
+	\subsection{Gilt dies auch für beliebige offene Teilmengen?}
+	\subsection{Zeigen Sie, dass in der Teilraumtopologie Unterräume von $M$ Hausdorffräume sind.}
+	\subsection{Sei $f: M \to N$ stetig und $K \subset M$ überdeckungskompakt. Dann ist $f\nOf{K} \subset N$ ebenfalls ü-kompakt.}
+	\section{Einsteinsche Summenkonvention}
+	\subsection{Formulieren Sie mit der Summenkonvention die folgenden Begriffe der Linearen Algebra:}
+	\subsubsection{Standardskalarprodukt des $\mR^n$}
+	\begin{equation}
+		v \cdot w = v_i w^i = \sum\limits_{i=1}^{n} v_i w_i
+	\end{equation}
+	\subsubsection{Matrix-Vektor-Produkt}
+	\begin{equation}
+		b = A v \quad b^i = A\indices{^i_j} v^j = \sum\limits_{j=1}^n A\indices{^i_j} v^j
+	\end{equation}
+	\subsubsection{Matrizenmultiplikation}
+	\begin{equation}
+		C = A B \quad C\indices{^i_k} = A\indices{^i_j} B\indices{^j_k} = \sum\limits_{j=1}^n A\indices{^i_j} B\indices{^j_k}
+	\end{equation}
+	\subsubsection{Spur einer Matrix}
+	\begin{equation}
+		\tr\nOf{A} = A\indices{^j_j} = \sum\limits_{j=1}^n A\indices{^j_j}
+	\end{equation}
+	\subsubsection{Transponieren einer Matrix}
+	\begin{equation}
+		B = A^T \quad B\indices{^i_j} = A\indices{^j_i}
+	\end{equation}
+	\subsection{Das Levi-Civita-Symbol}
+	Wir nehmen an:
+	\begin{equation}
+	x = (x^1,x^2,x^3) \quad y = (y^1,y^2,y^3) \quad z = (z^1,z^2,z^3)
+	\end{equation}
+	Behauptung: Es wird das Kreuzprodukt $z = x \times y$ berechnet.\\
+	Begründung: Komponentenweise nachrechnen:
+	\begin{align}
+		z^1 & = \sum\limits_{i=1}^3\sum\limits_{j=1}^3 \epsilon\indices{_i_j^1} x^i y^j \\
+		& = \sum\limits_{i=1}^3 \nOf{\epsilon\indices{_i_2^1} x^iy^2 + \epsilon\indices{_i_3^1} x^i y^3} \\
+		& = \epsilon\indices{_3_2^1} x^3 y^2 + \epsilon\indices{_2_3^1} x^2 y^3 \\
+		& = x^2 y^3 - x^3 y^2
+	\end{align}
+	Analog für die anderen Komponenten (zyklische Vertauschung der Indizes)
+	\begin{equation}
+		z = (x^2 y^3 - x^3 y^2, x^3 y^1 - x^1 y^3, x^1 y^2 - x^2 y^1)
+	\end{equation}
+	\subsection{Beweisen Sie für $f, g \in \mC^1\nOf{\mR,\mR^n}$, dass}
+	\begin{equation}
+		\dv{}{t} \scP{f\nOf{t}}{g\nOf{t}} = \scP{\dv{}{t}f\nOf{t}}{g\nOf{t}} + \scP{f\nOf{t}}{\dv{}{t}g\nOf{t}}
+	\end{equation}
+	\begin{align}
+		\dv{}{t} \scP{f\nOf{t}}{g\nOf{t}} & = \dv{}{t} f^i\nOf{t} g^i\nOf{t} \\
+		& = \sum\limits_{i=1}^n \dv{}{t} f^i\nOf{t} g^i\nOf{t} \\
+		& = \sum\limits_{i=1}^n \dv{f^i\nOf{t}}{t} g^i\nOf{t} + f^i\nOf{t} \dv{g^i\nOf{t}}{t} \\
+		& = \sum\limits_{i=1}^n \dv{f^i\nOf{t}}{t} g^i\nOf{t} + \sum\limits_{i=1}^n \dv{g^i\nOf{t}}{t} f^i\nOf{t} \\
+		& = \scP{\dv{}{t}f\nOf{t}}{g\nOf{t}} + \scP{f\nOf{t}}{\dv{}{t}g\nOf{t}}
+	\end{align}
+	\section{Einige Karten}
+	\subsection{Sei $U \subset \mR^n$ eine beliebige offene Menge in der Standardtopologie. Statten Sie nun $U$ mit einer $n$-dimensionalen Karte aus.}
+	\begin{equation}
+		f : \mR^n \to \mR^n; x \mapsto x
+	\end{equation}
+	Ist eine Karte von $U$.
+	\subsection{Ist diese Konstruktion auch für beliebige abgeschlossene Mengen des $\mR^n$ möglich?}
+	Nein wahrscheinlich nicht. Gegenbeispiel
+	\subsection{Stereographische Projektion der $S^n$ Karte. Weitere Karten für $2\nOf{n+1}$ Hemisphären $U_{i,\pm}$ für $i = 1,\dots,n+1$. Alle Hemisphären für Überdeckung? Kartenwechsel $\rightarrow$ $\mC^1$-Atlas?}
+\end{document}

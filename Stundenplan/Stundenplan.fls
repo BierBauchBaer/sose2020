@@ -1,0 +1,55 @@
+PWD C:\Users\Klossfresser\Bibliotheken\Desktop\Semester VI\Stundenplan
+INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT Stundenplan.tex
+OUTPUT Stundenplan.log
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\typearea.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\typearea.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT Stundenplan.aux
+INPUT Stundenplan.aux
+OUTPUT Stundenplan.aux
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
+OUTPUT Stundenplan.pdf
+INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT Stundenplan.aux
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb

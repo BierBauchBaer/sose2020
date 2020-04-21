@@ -1,0 +1,50 @@
+\usepackage[utf8]{inputenc}
+% Sonderzeichen
+\usepackage{amssymb}
+\usepackage{amsmath}
+% Formeln, ...
+\usepackage[german]{babel}
+% Deutsch
+\usepackage{cmbright}
+% Font
+\usepackage{graphicx}
+% Includegraphics
+\usepackage{fancyhdr}
+% Pagestyle
+\usepackage{titlesec}
+% Titleformat
+\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=3cm]{geometry}
+% Rand
+\usepackage{xcolor}
+\usepackage{color}
+% Farbe in Tabellen und Plots
+\usepackage{float}
+% figures mit [h]
+\usepackage{capt-of}
+% Captions mit captionof{<figure/table>}{<Name>}
+\usepackage{pgfplotstable}
+% Tabellen aus .dat
+\usepackage{titletoc}
+% Für Inhaltsverzeichnis
+
+\titlecontents{section}[1.5em]{}{\bfseries\contentslabel{1.5em}}{\hspace*{-2.3em}}{\titlerule*{ }\bfseries\contentspage}
+
+\titlecontents{subsection}[2.5em]{}{}{}{\titlerule*{.}\contentspage}
+
+\titleformat{\section}{\normalfont}{\Large\bfseries\thesection.}{8pt}{\Large\bfseries}
+
+\titleformat{\subsection}[runin]{}{}{0pt}{\large\bfseries}
+% Sections betiteln
+
+\pagestyle{fancy}
+\rhead{\begin{tabular}{l c}
+  Falk Trittschanke & 10011108\\
+  Lukas Hantzko     & 10011048
+\end{tabular}}
+\lhead{\begin{tabular}{l}
+  Physikpraktikum\\
+  {\bfseries Optische Bauelemente}
+\end{tabular}}
+% Header
+
+\setlength\parindent{0pt}

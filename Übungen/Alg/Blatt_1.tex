@@ -1,0 +1,61 @@
+\documentclass[11pt,a4paper]{scrartcl}
+
+% Allgemein
+\newcommand{\blatt}{1}
+\newcommand{\fach}{Algebra II}
+\input{options.tex}
+\input{math.tex}
+
+% Matrizen etc.
+\newcommand{\tauMat}{\left(\begin{array}{r r} 1 & 0 \\ 0 & -1\end{array}\right)}
+\newcommand{\idMat}{\left(\begin{array}{r r} 1 & 0 \\ 0 & 1\end{array}\right)}
+\newcommand{\sigMat}{\left(\begin{array}{r r} \cos \nOf{\phi} & \sin \nOf{\phi} \\ -\sin \nOf{\phi} & \cos \nOf{\phi} \end{array}\right)}
+\newcommand{\sigiMt}{\left(\begin{array}{r r} \cos \nOf{i\cdot\phi} & \sin \nOf{i\cdot\phi} \\ -\sin \nOf{i\cdot\phi} & \cos \nOf{i\cdot\phi} \end{array}\right)}
+
+% Text
+\begin{document}
+\section{$n\in \mN$, $n > 3$. $\sigma$ Drehung $\mR^2$ um $\phi = \frac{2\pi}{n}$. $\tau$ Spiegelung an $y$-Achse. $D_n = \aOf{\sigma,\tau}$}
+Im folgenden wird $x\in \mR^2$ angenommen.
+\subsection{Es gilt $\ord\nOf{\sigma} = n$, $\ord\nOf{\tau} = 2$ und $\sigma\tau\sigma = \tau$.}
+$\ord\nOf{\sigma} = n$, da:
+\begin{equation}
+	\sigma^i\nOf{x} = \sigiMt \cdot x
+\end{equation}
+Und damit:
+\begin{equation}
+	\sigma^n\nOf{x} = \idMat \cdot x = x \quad \sigma^n = \id
+\end{equation}
+Für $\tau$:
+\begin{equation}
+	\tau\nOf{x} = \tauMat\cdot x \quad \tau^2\nOf{x} = \left(\begin{array}{r r} 1 & 0 \\ 0 & 1\end{array}\right)\cdot x = x \quad \tau^2 = \id
+\end{equation}
+Damit ist $\ord\nOf{\tau} = 2$.
+\begin{equation}
+	\sigma\tau\sigma\nOf{x} = \sigMat \tauMat \sigMat \cdot x = \tauMat \cdot x = \tau\nOf{x}
+\end{equation}
+Es gilt also auch $\sigma\tau\sigma = \tau$
+
+\subsection{Es gilt $D_n = \sDf{\tau^i\sigma^j}{i\in\cOf{0,1}, j\in\cOf{0,1,\dots,n-1}}$.}
+Da $D_n$ nach dem ersten Aufgabenteil abelsch ist, sind alle Elemente von der Form $D_n = \sDf{\tau^i\sigma^j}{i\in\mN, j\in\mN}$. Da die beiden erzeugenden Elemente eine Ordnung von $n$ und $2$ haben, ist 
+
+\subsection{$D_n$ hat $n$ Elemente und ist nicht kommutativ.}
+$D_n$ ohne Spiegelung ist reguläres $n$-Eck. Spiegelungen an der y-Achse sind irrelevant.
+
+\section{$K$ Körper und $f\nOf{x}\in K \eOf{x}$ irreduzibel. $a$ Nullstelle von $f\nOf{x}$ in Erweiterungskörper von $K$.}
+
+\subsection{Beweisen Sie: Ist auch $f\nOf{a + 1} = 0$, so gilt $\car\nOf{K} > 0$.}
+Es gilt:
+\\ Gelte nun weiter $\car\nOf{K} = p$ und $a^p - a \in K$.
+\subsection{Beweisen Sie, dass $f\nOf{x} = x^p - x - \nOf{a^p - a}$ gilt.}
+
+\subsection{Beweisen Sie, dass die Erweiterung $K\nOf{a}/K$ galoissch ist.}
+
+\subsection{Beweisen Sie, dass $\aut\nOf{K\nOf{a};K}$ zyklisch von Ordnung $p$ ist.}
+
+\section{$\mC\nOf{x}$ rationale Funktionen über $\mC$. In $\aut\nOf{\mC\nOf{x};\mC}$, betrachte $\sigma$, $\tau$ mit $\sigma\nOf{x} = - x$ und $\tau\nOf{x} = \mI x^{-1}$. $G = \aOf{\sigma,\tau}\subset \aut\nOf{\mC\nOf{x};\mC}$.}
+
+\subsection{Beweisen Sie, dass $G$ endlich ist. Welche Ihnen bekannte Gruppe ist $G$?}
+
+\subsection{Beweisen Sie, dass $\fix\nOf{\mC\nOf{x};G}$ rationaler Fkt-Körper über $\mC$; $\fix\nOf{\mC\nOf{x};G} = \mC\nOf{y}$ mit $y\in\mC\nOf{x}$. $y$ angeben.}
+
+\end{document}
