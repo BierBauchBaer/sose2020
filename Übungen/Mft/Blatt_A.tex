@@ -8,13 +8,37 @@
 \begin{document}
 	\section{Topologische Grundlagen}
 	Seien $\nOf{M,O_M}$ und $\nOf{N,O_N}$ zwei Hausdorffräume.
+
 	\subsection{Zeigen Sie, dass in der Teilraumtopologie abgeschlossene Teilmengen kompakter Mengen auch kompakt sind.}
 	Kompakte Menge: Jede offene Überdeckung besitzt endliche Teilüberdeckung. Überdeckung im Teilraum $\rightarrow$ Überdeckung im Raum $\rightarrow$ endliche Überdeckung im Raum $\rightarrow$ Per Schnitt mit Menge: Endliche offene Überdeckung.
+ 
 	\subsection{Gilt dies auch für beliebige offene Teilmengen?}
+
 	\subsection{Zeigen Sie, dass in der Teilraumtopologie Unterräume von $M$ Hausdorffräume sind.}
+	Aufgrund der Teilraumtopologie sind Unterräume $U$ auch topologische Räume. Bleibt zu zeigen, dass in Unterräumen auch die Hausdorffeigenschaft erfüllt ist. Nehmen wir also zwei Punkte $x,y \in U$. Diese besitzen, da $U\subset M$ ein Hausdorffraum ist zwei offene Umgebungen $V_x, V_y \in O_M$, so dass gilt: $V_x \cap V_y = \emptyset$ (disjunkt). Nun definieren wir $U_x, U_y \subset U$ als $U_{\cdot} = V_{\cdot} \cap U$, also der Schnitt mit $U$. Diese sind in der Teilraumtopologie $U_x,U_y \in O_U = \sDf{A \cap U}{A \in O_M}$, da $V_x, V_y \in O_M$. Außerdem sind sie disjunkt, da $U_x \cap U_y = V_x \cap U \cap V_y \cap U = V_x \cap V_y = \emptyset$ nach Vorraussetzung. Damit sind diese Punkte durch disjunkte offene Umgebungen getrennt. 
+% Fertig
 	\subsection{Sei $f: M \to N$ stetig und $K \subset M$ überdeckungskompakt. Dann ist $f\nOf{K} \subset N$ ebenfalls ü-kompakt.}
+	Sei eine offene Überdeckung von $f\nOf{K}$ gegeben:
+	\begin{equation}
+		f\nOf{K} \subset \Cup_{i\in I} A_i \subset N
+	\end{equation}
+	Dann ist folgendes auch eine offene Überdeckung:
+	\begin{equation}
+		K \subset \Cup_{i\in I} f^{-1}\nOf{A_i} \subset M
+	\end{equation}
+	Dann existiert eine endliche Teilüberdeckung (K überdeckungskompakt)
+	\begin{equation}
+		K \subset \Cup_{i = 1}^n f^{-1}\nOf{A_i} \subset M
+	\end{equation}
+	Das Bild davon ist dann eine endliche Teilüberdeckung von $f\nOf{K}$:
+	\begin{equation}
+		f\nOf{K} \subset \Cup_{i = 1}^n A_i \subset N
+	\end{equation}
+% Fertig
 	\section{Einsteinsche Summenkonvention}
+
 	\subsection{Formulieren Sie mit der Summenkonvention die folgenden Begriffe der Linearen Algebra:}
+
 	\subsubsection{Standardskalarprodukt des $\mR^n$}
 	\begin{equation}
 		v \cdot w = v_i w^i = \sum\limits_{i=1}^{n} v_i w_i
