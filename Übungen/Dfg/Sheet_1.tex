@@ -9,5 +9,20 @@
 	\section{holomorphic functions}
 	\subsection{Let $f : \cC^n \to \cC$ be a holomorphic function.	The functions $\Re\nOf{f}$ and $\Im\nOf{f}$ are harmonic}
 	\subsection{Let $U\subset \cC^n$ be a connected open subset. Every non-constant harmonic function $f : U \to \mR$ has no extremum on $U$}
+	\subsection{Show that any holomorphic function $f:M \to \cC$, where $M$ is a compact complex manifold, is constant}
+	\subsection{Deduce that $\cC^n$ does not have any compact complex submanifolds of postive dimension.}
 
+	\section{Hopf manifolds}
+	Generalize the construction of the Hopf manifold as follows: Let $\lambda_1,\dots,\lambda_n$ be complex numbers such that $\vOf{\lambda_i} > 1$ for each $i = 1, \dots, n$. Consider the action of $\mZ$ on $\cC^n\setminus\cOf{0}$ given by
+	\begin{equation}
+		k\cdot\nOf{z_1,\dots,z_n} = \nOf{\lambda_1^kz_1,\dots,\lambda_n^k z_n}
+	\end{equation}
+	where $k\in\mZ$. Show that the quotient $\nOf{\cC^n\setminus\cOf{0}}/\mZ$ is again diffeomorphic to $S^1\times S^{2n-1}$. (Hint: Find a suitable map $\Phi: \mR\times S^{2n-1}\to\cC^n\setminus\cOf{0}$ such that for all $k\in\mZ$ the relation $k\cdot\Phi\nOf{t,u} = \Phi\nOf{t+k,u}$ holds.)
+
+	\section{vector fields}
+	For a complex manifold $M$ denote by $H^0\nOf{M,TM}$ the space of holomorphic vector fields on $M$. Let $M_1$, $M_2$ be two compact complex manifolds and let $M = M_1\times M_2$ be their product (as a complex manifold). Prove that
+	\begin{equation}
+		H^0\nOf{M,TM} \stackrel{\sim}{=} H^0\nOf{M_1,TM_1} \oplus H^0\nOf{M_2,TM_2}
+	\end{equation}
+	Give examples to show that if the compactness assumption is dropped, then the result may or may not hold.
 \end{document}

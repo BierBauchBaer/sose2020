@@ -7,8 +7,8 @@ Password: 1915
 Meeting ID: 932 7086 5690
 Password: 1915
 	Freitag 8 - 10 (Übung)
-	https://deref-gmx.net/mail/client/zyQem2XdUes/dereferrer/?redirectUrl=https%3A%2F%2Fqig.itp.uni-hannover.de%2F%7Egiulini%2FStudentHome%2FSS20_ART.html
-	https://deref-gmx.net/mail/client/L9qza2QhZao/dereferrer/?redirectUrl=https%3A%2F%2Fqig.itp.uni-hannover.de%2F%7Egiulini%2FStudentHome%2FSS20_DiffGeom.html
+	hhttps://qig.itp.uni-hannover.de/~giulini/StudentHome/SS20_ART.html
+	https://qig.itp.uni-hannover.de/~giulini/StudentHome/SS20_DiffGeom.html
 	Abgabe "vorrechnen"
 
 Mannigfaltigkeiten - BBB
@@ -34,11 +34,10 @@ Algebra II - Zoom
 	Abgabe Freitag 12:00  -  algebra2@math.uni-hannover.de
 	Vorlesung
 	Meeting ID: 	974 3111 6240 (MO)
-			926 1746 5762 (DI)
+					926 1746 5762 (DI)
 	Alleine / zu zweit
 
 Differentialgeometrie - StudIP
-	Dienstag 14 - 16 fällt?
 	Donnerstag 12 - 14 Fragen
 	Mittwoch 12 - 14 (Übung)
 	Literatur und Folien - Skript
