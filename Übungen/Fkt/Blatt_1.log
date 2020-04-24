@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.22)  24 APR 2020 23:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.22)  25 APR 2020 00:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Blatt_1.tex --quiet
+**Blatt_1.tex
 (./Blatt_1.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
@@ -1474,25 +1474,39 @@ Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 54.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-])
+]) (./1_3.tex
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 11.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 11.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 11.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 11.
+(babel)             in language  on input line 4.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 11.
+(babel)             in language  on input line 4.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 11.
+(babel)             in language  on input line 4.
+)
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 12.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 12.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 12.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 12.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 12.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 12.
  [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
- (./Blatt_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 11.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 12.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 12.
+
+(./Blatt_1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 12.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 12.
 
 
 Package rerunfilecheck Warning: File `Blatt_1.out' has changed.
@@ -1501,17 +1515,17 @@ Package rerunfilecheck Warning: File `Blatt_1.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `Blatt_1.out':
 (rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  425A1E026535F7CD9CE102C8C37745DB;236.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 11.
+(rerunfilecheck)             After:  51BE13F1171C9E11016EF02D38846D16;329.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 12.
  ) 
 Here is how much of TeX's memory you used:
- 30505 strings out of 492982
- 718945 string characters out of 6134896
- 997855 words of memory out of 5000000
- 33560 multiletter control sequences out of 15000+600000
+ 30513 strings out of 492982
+ 719018 string characters out of 6134896
+ 997815 words of memory out of 5000000
+ 33563 multiletter control sequences out of 15000+600000
  12499 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,19n,106p,8826b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,19n,106p,8818b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/share/texlive/
@@ -1522,10 +1536,10 @@ ublic/hfbright/hfbrmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/h
 fbright/hfbrmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/
 hfbrsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrsy8
 .pfb>
-Output written on Blatt_1.pdf (2 pages, 90740 bytes).
+Output written on Blatt_1.pdf (2 pages, 94973 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
