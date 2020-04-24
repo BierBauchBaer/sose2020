@@ -9,10 +9,11 @@
 	\section{Topologische Grundlagen}
 	Seien $\nOf{M,O_M}$ und $\nOf{N,O_N}$ zwei Hausdorffräume.
 
-	\subsection{Zeigen Sie, dass in der Teilraumtopologie abgeschlossene Teilmengen kompakter Mengen auch kompakt sind.}
-	Kompakte Menge: Jede offene Überdeckung besitzt endliche Teilüberdeckung. Überdeckung im Teilraum $\rightarrow$ Überdeckung im Raum $\rightarrow$ endliche Überdeckung im Raum $\rightarrow$ Per Schnitt mit Menge: Endliche offene Überdeckung.
+	\subsection{Sei $\nOf{K,O_K}$ ein kompakter Raum. Zeigen Sie, dass eine abgeschlossene Menge $A\subset K$ auch kompakt ist.}
+	Sei eine beliebige offene Überdeckung von $A$ gegeben. Dann ist 
  
 	\subsection{Gilt dies auch für beliebige offene Teilmengen?}
+	In $\mR$ ist eine offenes Intervall nicht kompakt, zum Beispiel $\nOf{0,1}$ ist eine offene Teilmenge einer kompakten Menge, zum Beispiel $\eOf{0,1}$, die mit der üblichen Topologie ein kompakter topologischer Raum ist.
 
 	\subsection{Zeigen Sie, dass in der Teilraumtopologie Unterräume von $M$ Hausdorffräume sind.}
 	Aufgrund der Teilraumtopologie sind Unterräume $U$ auch topologische Räume. Bleibt zu zeigen, dass in Unterräumen auch die Hausdorffeigenschaft erfüllt ist. Nehmen wir also zwei Punkte $x,y \in U$. Diese besitzen, da $U\subset M$ ein Hausdorffraum ist zwei offene Umgebungen $V_x, V_y \in O_M$, so dass gilt: $V_x \cap V_y = \emptyset$ (disjunkt). Nun definieren wir $U_x, U_y \subset U$ als $U_{\cdot} = V_{\cdot} \cap U$, also der Schnitt mit $U$. Diese sind in der Teilraumtopologie $U_x,U_y \in O_U = \sDf{A \cap U}{A \in O_M}$, da $V_x, V_y \in O_M$. Außerdem sind sie disjunkt, da $U_x \cap U_y = V_x \cap U \cap V_y \cap U = V_x \cap V_y = \emptyset$ nach Vorraussetzung. Damit sind diese Punkte durch disjunkte offene Umgebungen getrennt. 
@@ -22,7 +23,7 @@
 	\begin{equation}
 		f\nOf{K} \subset \Cup_{i\in I} A_i \subset N
 	\end{equation}
-	Dann ist folgendes auch eine offene Überdeckung:
+	Dann ist folgendes auch eine offene Überdeckung, da $f$ stetig:
 	\begin{equation}
 		K \subset \Cup_{i\in I} f^{-1}\nOf{A_i} \subset M
 	\end{equation}
@@ -43,22 +44,27 @@
 	\begin{equation}
 		v \cdot w = v_i w^i = \sum\limits_{i=1}^{n} v_i w_i
 	\end{equation}
+
 	\subsubsection{Matrix-Vektor-Produkt}
 	\begin{equation}
 		b = A v \quad b^i = A\indices{^i_j} v^j = \sum\limits_{j=1}^n A\indices{^i_j} v^j
 	\end{equation}
+
 	\subsubsection{Matrizenmultiplikation}
 	\begin{equation}
 		C = A B \quad C\indices{^i_k} = A\indices{^i_j} B\indices{^j_k} = \sum\limits_{j=1}^n A\indices{^i_j} B\indices{^j_k}
 	\end{equation}
+
 	\subsubsection{Spur einer Matrix}
 	\begin{equation}
 		\tr\nOf{A} = A\indices{^j_j} = \sum\limits_{j=1}^n A\indices{^j_j}
 	\end{equation}
+
 	\subsubsection{Transponieren einer Matrix}
 	\begin{equation}
 		B = A^T \quad B\indices{^i_j} = A\indices{^j_i}
 	\end{equation}
+
 	\subsection{Das Levi-Civita-Symbol}
 	Wir nehmen an:
 	\begin{equation}
@@ -76,6 +82,7 @@
 	\begin{equation}
 		z = (x^2 y^3 - x^3 y^2, x^3 y^1 - x^1 y^3, x^1 y^2 - x^2 y^1)
 	\end{equation}
+
 	\subsection{Beweisen Sie für $f, g \in \mC^1\nOf{\mR,\mR^n}$, dass}
 	\begin{equation}
 		\dv{}{t} \scP{f\nOf{t}}{g\nOf{t}} = \scP{\dv{}{t}f\nOf{t}}{g\nOf{t}} + \scP{f\nOf{t}}{\dv{}{t}g\nOf{t}}
@@ -87,13 +94,18 @@
 		& = \sum\limits_{i=1}^n \dv{f^i\nOf{t}}{t} g^i\nOf{t} + \sum\limits_{i=1}^n \dv{g^i\nOf{t}}{t} f^i\nOf{t} \\
 		& = \scP{\dv{}{t}f\nOf{t}}{g\nOf{t}} + \scP{f\nOf{t}}{\dv{}{t}g\nOf{t}}
 	\end{align}
+
 	\section{Einige Karten}
+
 	\subsection{Sei $U \subset \mR^n$ eine beliebige offene Menge in der Standardtopologie. Statten Sie nun $U$ mit einer $n$-dimensionalen Karte aus.}
 	\begin{equation}
 		f : \mR^n \to \mR^n; x \mapsto x
 	\end{equation}
 	Ist eine Karte von $U$.
+
 	\subsection{Ist diese Konstruktion auch für beliebige abgeschlossene Mengen des $\mR^n$ möglich?}
-	Nein wahrscheinlich nicht. Gegenbeispiel
+	Nein, da die Abbildung dann nicht bijektiv von einer offenen Menge in eine offene Menge abbildet.
+
 	\subsection{Stereographische Projektion der $S^n$ Karte. Weitere Karten für $2\nOf{n+1}$ Hemisphären $U_{i,\pm}$ für $i = 1,\dots,n+1$. Alle Hemisphären für Überdeckung? Kartenwechsel $\rightarrow$ $\mC^1$-Atlas?}
+
 \end{document}

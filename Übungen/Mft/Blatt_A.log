@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.22)  22 APR 2020 14:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.22)  24 APR 2020 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Blatt_A.tex -quiet
+**Blatt_A.tex --quiet
 (./Blatt_A.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
@@ -1340,11 +1340,11 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 Here is how much of TeX's memory you used:
  27082 strings out of 492982
  666616 string characters out of 6134896
- 935289 words of memory out of 5000000
+ 936289 words of memory out of 5000000
  30151 multiletter control sequences out of 15000+600000
  9921 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,19n,106p,8825b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,19n,106p,8826b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><
@@ -1357,7 +1357,7 @@ pe1/public/hfbright/hfbrmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/hfbright/hfbrsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbr
 ight/hfbrsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.
 pfb>
-Output written on Blatt_A.pdf (3 pages, 103060 bytes).
+Output written on Blatt_A.pdf (3 pages, 103475 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
