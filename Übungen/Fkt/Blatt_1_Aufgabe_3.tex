@@ -1,0 +1,72 @@
+\documentclass[11pt,a4paper]{scrartcl}
+\usepackage[utf8]{inputenc}
+% Sonderzeichen
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+% Formeln, ...
+\usepackage[german]{babel}
+% Deutsch
+\usepackage{cmbright}
+% Font
+\usepackage{graphicx}
+% Includegraphics
+\usepackage{fancyhdr}
+% Pagestyle
+\usepackage{titlesec}
+% Titleformat
+\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=3cm]{geometry}
+% Rand
+\usepackage{xcolor}
+\usepackage{color}
+% Farbe in Tabellen und Plots
+\usepackage{float}
+% figures mit [h]
+\usepackage{capt-of}
+% Captions mit captionof{<figure/table>}{<Name>}
+\usepackage{pgfplotstable}
+% Tabellen aus .dat
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs}
+\everymath{\displaystyle}
+
+\titleformat{\section}{\normalfont}{\large\bfseries\blatt.\thesection}{8pt}{\normalfont}
+
+\renewcommand{\thesubsection}{\alph{subsection}}
+\titleformat{\subsection}{\normalfont}{(\thesubsection)}{8pt}{\normalfont}
+\renewcommand{\arraystretch}{0.5}
+% Sections betiteln
+\usepackage[hidelinks]{hyperref}
+\pagestyle{fancy}
+\rhead{\fontsize{7}{11}\selectfont\begin{tabular}{l l r}
+  Name & Emailadresse & Matrikelnummer \\
+  Sascha Wache      & \href{mailto:sascha.wache@stud.uni-hannover.de}{sascha.wache@stud.uni-hannover.de} & 10012481\\
+  Lukas Hantzko     & \href{mailto:lukas.hantzko@stud.uni-hannover.de}{lukas.hantzko@stud.uni-hannover.de} & 10011048 \\
+  Lennart Binkowski & \href{mailto:lennart.binkowski@stud.uni-hannover.de}{lennart.binkowski@stud.uni-hannover.de} & 10011560
+\end{tabular}}
+\lhead{\begin{tabular}{l}
+  Übungsblatt \blatt\\
+  {\bfseries \fach}
+\end{tabular}}
+% Header
+
+\setlength\parindent{0pt}
+
+% Allgemein
+\newcommand{\blatt}{1}
+\newcommand{\fach}{Funktionentheorie}
+%\input{options.tex}
+%\input{math.tex}
+
+\begin{document}
+	\section{Aufgabe 3}
+	
+	\subsection{}
+	$u(x,y)=-\frac{x^3}{3}+y x^2 $ ist Realteil einer komplexen Funktion $f$.\newline
+	$f(x,y)=u(x,y)+i*w(x,y)$ ist komplex differenzierbar in $x+iy$ gdw. $\frac{d}{dx}u = \frac{d}{dy}w$ und $\frac{d}{dy}u = -\frac{d}{dx}w$\newline
+	Aus $\frac{d}{dx}u = -x^2+y^2$ folgt $w=\int_{}{} \frac{d}{dx} u dy =-x^2y+y^3/3+c(x)$, wobei c eine nur von x abhängige Funktion ist.\newline
+    Andererseits muss auch gelten $w=-\int_{}{} \frac{d}{dy} u dx= -\int_{}{} 2xy  dx =-x^2y+c(y)$, d.h. $c(y)=\frac{y^3}{3}$\newline
+	Zusammengenommen ergibt sich:
+	    $w(x,y)=-x^2y+\frac{y^3}{3}$ bzw. $f(x,y)=-\frac{x^3}{3}+ x^2y +i(-x^2y+\frac{y^3}{3})$
+\end{document}
