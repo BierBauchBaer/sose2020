@@ -34,12 +34,15 @@
 
 \renewcommand{\thesubsection}{\alph{subsection}}
 \titleformat{\subsection}{\normalfont}{(\thesubsection)}{8pt}{\normalfont}
+\renewcommand{\arraystretch}{0.5}
 % Sections betiteln
-
+\usepackage[hidelinks]{hyperref}
 \pagestyle{fancy}
-\rhead{\begin{tabular}{l r}
-  Name & Matrikelnummer\\
-  Lukas Hantzko     & 10011048
+\rhead{\fontsize{7}{11}\selectfont\begin{tabular}{l l r}
+  Name & Emailadresse & Matrikelnummer \\
+  Sascha Wache      & \href{mailto:sascha.wache@stud.uni-hannover.de}{sascha.wache@stud.uni-hannover.de} & 10012481\\
+  Lukas Hantzko     & \href{mailto:lukas.hantzko@stud.uni-hannover.de}{lukas.hantzko@stud.uni-hannover.de} & 10011048 \\
+  Lennart Binkowski & \href{mailto:lennart.binkowski@stud.uni-hannover.de}{lennart.binkowski@stud.uni-hannover.de} & 10011560
 \end{tabular}}
 \lhead{\begin{tabular}{l}
   Übungsblatt \blatt\\
