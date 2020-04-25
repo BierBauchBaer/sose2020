@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1587408942 "Sheet_1.tex" "Sheet_1.pdf" "Sheet_1" 1587408945
+["pdflatex"] 1587769243 "Sheet_1.tex" "Sheet_1.pdf" "Sheet_1" 1587769246
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233955448 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233955448 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
@@ -15,6 +15,7 @@
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cmbright/cmbrmi8.tfm" 1021149244 1536 e5dc1fc92eaa02a077dfd8f5bb78f6ce ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cmbright/cmbrsy10.tfm" 864662942 1124 00df9b89c9eb5dfe10f722aab27b3560 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cmbright/cmbrsy8.tfm" 864662942 1120 90e1ff57236ed6769cdb8e6d58469358 ""
+  "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Program Files/MiKTeX 2.9/tex/context/base/mkii/supp-pdf.mkii" 1550864520 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.def" 1563546287 79581 0b9f5eea41bd7c87924c1917e355c00a ""
@@ -186,7 +187,9 @@
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty" 1546712198 12527 31ab547f6520657998ecf91709f950ac ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/calc.sty" 1546712198 10212 357072c1d20578a30d6387d8a22e72ab ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
+  "C:/Users/Klossfresser/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/public/cmbright/dpi600/cmbr8.pk" 1569878843 7676 ab7b5a641c9920e6ab91ba2ad2beb900 ""
   "C:/Users/Klossfresser/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/public/cmbright/dpi600/cmbrmi8.pk" 1571674574 9936 e1eba6319c5583b7bfc1d46cd46029b3 ""
+  "C:/Users/Klossfresser/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/public/cmbright/dpi600/cmbrsy8.pk" 1571674575 11328 5fbce1769ee7638e1d0b69ba8abd8e24 ""
   "C:/Users/Klossfresser/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/public/cmbright/dpi657/cmbr10.pk" 1569878846 10440 8e2dcfdff376692691eb89e7d9a0ac15 ""
   "C:/Users/Klossfresser/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/public/cmbright/dpi657/cmbrbs10.pk" 1571675091 19968 9a40f019fa8c8d49ef075af854c78cc2 ""
   "C:/Users/Klossfresser/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/public/cmbright/dpi657/cmbrbx10.pk" 1573938468 10660 1844b859c3c99f298dce0c9b5d22ea77 ""
@@ -197,11 +200,11 @@
   "C:/Users/Klossfresser/AppData/Local/MiKTeX/2.9/fonts/tfm/public/rsfs/rsfs5.tfm" 1587396100 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "C:/Users/Klossfresser/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1569199212 4235405 15aee3ecbc4780c2b6be1c0ecc1720b4 ""
   "C:/Users/Klossfresser/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1569199035 80453 73224248f0a73acd005b5611945eaaa6 ""
-  "Sheet_1.aux" 1587408944 669 3d3accd1a51fa852ca9ab29f698e7397 "pdflatex"
-  "Sheet_1.tex" 1587408938 495 5da81fbc7823445fb84fd327b70f3f0f ""
-  "math.tex" 1587408912 606 7afed638e412594c33e8c88ed9de5eb3 ""
-  "options.tex" 1587408360 1397 cf8b85dfddc298350f92cc331d4175c4 ""
+  "Sheet_1.aux" 1587769246 1258 7b1c9b321f161ddfba15239a48e5ceff "pdflatex"
+  "Sheet_1.tex" 1587769237 1872 45579468cbe63ba3979006de836a6005 ""
+  "math.tex" 1587599821 799 188a585cfd72fffa55889ddcc3ae498f ""
+  "options.tex" 1587768721 1396 0e50209cadc3b7f8eba87a79a58504c8 ""
   (generated)
-  "Sheet_1.log"
   "Sheet_1.aux"
+  "Sheet_1.log"
   "Sheet_1.pdf"

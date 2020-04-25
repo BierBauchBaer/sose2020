@@ -1,4 +1,4 @@
-PWD C:\Users\Klossfresser\Bibliotheken\Desktop\Semester VI\Übungen\Dfg
+PWD C:\Users\Klossfresser\Bibliotheken\Desktop\sose2020\Übungen\Dfg
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
 INPUT Sheet_1.tex
 OUTPUT Sheet_1.log
@@ -307,6 +307,10 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cmbright\cmbrbx10.tfm
 OUTPUT Sheet_1.pdf
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT Sheet_1.aux
+INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrsy8.pk
+INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrsy8.pk
+INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbr8.pk
+INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbr8.pk
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi657\cmbrsy10.pk
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi657\cmbrsy10.pk
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrmi8.pk
@@ -321,5 +325,7 @@ INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbr
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi657\cmbrbx10.pk
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi657\cmbr10.pk
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi657\cmbr10.pk
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb

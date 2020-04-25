@@ -1,4 +1,4 @@
-PWD C:\Users\Klossfresser\Bibliotheken\Desktop\Semester VI\Übungen\Alg
+PWD C:\Users\Klossfresser\Bibliotheken\Desktop\sose2020\Übungen\Alg
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
 INPUT Blatt_1.tex
 OUTPUT Blatt_1.log
@@ -271,6 +271,8 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
+INPUT 1_1.tex
+INPUT 1_1.tex
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cmbright\cmbr10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cmbright\cmbrbx10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cmbright\cmbr8.tfm
@@ -294,9 +296,13 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cmbright\cmbras8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cmbright\cmbrbs10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cmbright\cmbrbs8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cmbright\cmbrbs8.tfm
+INPUT 1_2.tex
+INPUT 1_2.tex
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cmbright\cmbrbx10.tfm
 OUTPUT Blatt_1.pdf
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT 1_3.tex
+INPUT 1_3.tex
 INPUT Blatt_1.aux
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrsy8.pk
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrsy8.pk

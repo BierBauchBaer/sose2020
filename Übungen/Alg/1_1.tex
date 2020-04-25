@@ -1,0 +1,50 @@
+\section{$n\in \mN$, $n > 3$. $\sigma$ Drehung $\mR^2$ um $\phi = \frac{2\pi}{n}$. $\tau$ Spiegelung an $y$-Achse. $D_n = \aOf{\sigma,\tau}$}
+Im folgenden wird $x\in \mR^2$ angenommen.
+\subsection{Es gilt $\ord\nOf{\sigma} = n$, $\ord\nOf{\tau} = 2$ und $\sigma\tau\sigma = \tau$.}
+$\ord\nOf{\sigma} = n$, da:
+\begin{equation}
+	\sigma^i\nOf{x} = \sigiMt \cdot x
+\end{equation}
+Und damit:
+\begin{equation}
+	\sigma^n\nOf{x} = \idMat \cdot x = x \quad \sigma^n = \id
+\end{equation}
+Für $\tau$:
+\begin{equation}
+	\tau\nOf{x} = \tauMat\cdot x \quad \tau^2\nOf{x} = \left(\begin{array}{r r} 1 & 0 \\ 0 & 1\end{array}\right)\cdot x = x \quad \tau^2 = \id
+\end{equation}
+Damit ist $\ord\nOf{\tau} = 2$.
+\begin{equation}
+	\sigma\tau\sigma\nOf{x} = \sigMat \tauMat \sigMat \cdot x = \tauMat \cdot x = \tau\nOf{x}
+\end{equation}
+Es gilt also auch $\sigma\tau\sigma = \tau$
+
+\subsection{Es gilt $D_n = \sDf{\tau^i\sigma^j}{i\in\cOf{0,1}, j\in\cOf{0,1,\dots,n-1}}$.}
+$D_n$ ist definiert als die kleinste Menge die $\tau$ und $\sigma$ enthält und abgeschlossen ist unter Verknüpfung. Zunächst gilt:
+\begin{equation}
+	M_n \mDef \sDf{\tau^i\sigma^j}{i\in\cOf{0,1}, j\in\cOf{0,1,\dots,n-1}} \subset D_n
+\end{equation}
+Dies ist wahr, da $\tau\in D_n\;\rightarrow\;\tau^i\in D_n\;\forall i \in \mN$, sowie analog $\sigma^j\in D_n\;\forall j \in \mN$ implizieren (jeweils über die Abgeschlossenheit unter Verknüpfung), dass $\tau^i\sigma^j\in D_n\;\forall i,j\in\mN$. Damit gilt $M_n \subset D_n$, da alle Elemente aus $M_n$ in $D_n$ enthalten sind.\\
+Fehlt zu zeigen, dass $M_n$ abgeschlossen ist unter Verknüpfung, sowie dass $\sigma$ und $\tau$ in $M_n$ sind. Für letzteres reicht $j$ und $i$ als $1$ beziehungsweise $0$ zu wählen. $M_n$ ist abgeschlossen unter Verknüpfung, da:
+\begin{equation}
+	\tau^i\sigma^j\tau^k\sigma^l
+\end{equation}
+Für $k,i\in\cOf{0,1}$ und $j,l\in\cOf{0,\dots,n-1}$ Fälle:
+\begin{enumerate}
+	\item[$k=0$] In diesem Fall ist:
+	\begin{equation}
+		\tau^i\sigma^j\tau^k\sigma^l = \tau^i\sigma^{j+l} = \tau^i\sigma^{j+l \mod n} \in M_n
+	\end{equation}
+	\item[$k=1$] In diesem Fall ist:
+	\begin{align}
+		\tau^i\sigma^j\tau^k\sigma^l & = \tau^i\sigma^j\tau\sigma^l\\
+		& = \tau^i\sigma^{j-1}\sigma\tau\sigma\sigma^{l-1}\\
+		& = \tau^i\sigma^{j-1}\tau\sigma^{l-1}\\
+		& = \dots \\
+		& = \tau^{i+1}\sigma^{l-j} = \tau^{i+1 \mod 1}\sigma^{l-j \mod n} \in M_n
+	\end{align}
+	Wobei jeweils $\sigma\tau\sigma = \tau$ und die Ordnungen von $\sigma$ und $\tau$ ausgenutzt worden sind.
+\end{enumerate}
+
+\subsection{$D_n$ hat $2n$ Elemente und ist nicht kommutativ.}
+$D_n$ ist nicht kommutativ, da $\tau\sigma\tau = \id \neq \tau\tau\sigma$. $D_n$ hat $2n$ Elemente, da einerseits $2$ und $n$ die Gruppenordnung teilen müssen, und andererseits mehr als $n$ Elemente enthalten sein können ($\aOf{\sigma} \subset D_n$) und weniger als $2n$. Damit bleibt nur $2n$ als Mächtigkeit über.
