@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.23)  25 APR 2020 01:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.23)  25 APR 2020 20:33
 entering extended mode
 **./Blatt_1.tex
 (Blatt_1.tex
@@ -1014,32 +1014,32 @@ This may cause the page layout to be inconsistent, however.
 [1{C:/Users/Klossfresser/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ])
-(1_3.tex) [2] (Blatt_1.aux) ) 
+(1_3.tex) [2] [3] (Blatt_1.aux) ) 
 Here is how much of TeX's memory you used:
- 27273 strings out of 492895
- 675851 string characters out of 3133458
- 980385 words of memory out of 3000000
- 30701 multiletter control sequences out of 15000+200000
+ 27274 strings out of 492895
+ 675848 string characters out of 3133458
+ 979386 words of memory out of 3000000
+ 30702 multiletter control sequences out of 15000+200000
  9427 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,18n,106p,9088b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\f
-onts/pk/ljfour/public/cmbright/dpi600\cmbrsy8.pk> <C:\Users\Klossfresser\AppDat
-a\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi600\cmbrmi8.pk> <C:\Users
-\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi600\c
-mbr8.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public
-/cmbright/dpi657\cmbrbs10.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\f
-onts/pk/ljfour/public/cmbright/dpi657\cmbrsy10.pk> <C:\Users\Klossfresser\AppDa
-ta\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi657\cmbrmi10.pk> <C:\Use
-rs\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi720
-\cmbrbx10.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/p
-ublic/cmbright/dpi657\cmbrbx10.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\
-2.9\fonts/pk/ljfour/public/cmbright/dpi657\cmbr10.pk><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on Blatt_1.pdf (2 pages, 67145 bytes).
+ <C:\Users\Klossfresser\AppData\Local\MiKTeX\2
+.9\fonts/pk/ljfour/public/cmbright/dpi600\cmbrsy8.pk> <C:\Users\Klossfresser\Ap
+pData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi600\cmbrmi8.pk> <C:\U
+sers\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi6
+00\cmbr8.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/pu
+blic/cmbright/dpi657\cmbrbs10.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2
+.9\fonts/pk/ljfour/public/cmbright/dpi657\cmbrsy10.pk> <C:\Users\Klossfresser\A
+ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi657\cmbrmi10.pk> <C:
+\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dp
+i720\cmbrbx10.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
+ur/public/cmbright/dpi657\cmbrbx10.pk> <C:\Users\Klossfresser\AppData\Local\MiK
+TeX\2.9\fonts/pk/ljfour/public/cmbright/dpi657\cmbr10.pk><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on Blatt_1.pdf (3 pages, 70027 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
+ 185 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,34 @@
 \section{$\mC\nOf{x}$ rationale Funktionen über $\mC$. In $\aut\nOf{\mC\nOf{x};\mC}$, betrachte $\sigma$, $\tau$ mit $\sigma\nOf{x} = - x$ und $\tau\nOf{x} = \mI x^{-1}$. $G = \aOf{\sigma,\tau}\subset \aut\nOf{\mC\nOf{x};\mC}$.}
 
 \subsection{Beweisen Sie, dass $G$ endlich ist. Welche Ihnen bekannte Gruppe ist $G$?}
-Zwei selbstinverse Elemente als Erzeuger -> $S^2 \times S^2$
+Die Erzeuger $\sigma$ und $\tau$ kommutieren
+\begin{equation}
+\sigma\nOf{\tau\nOf{x}} = \mI\nOf{-x}^{-1} = -\mI x^{-1} = \tau\nOf{\sigma\nOf{x}}
+\end{equation}
+und haben beide Ordnung $2$:
+\begin{equation}
+	\sigma^2\nOf{x} = -\nOf{-x} = x \quad \tau^2\nOf{x} = \mI\nOf{\mI x^{-1}}^{-1} = \mI\cdot -\mI x = x
+\end{equation}
+Damit ist die Gruppe endlich.\\
+Die Gruppe ist isomorph zur kleinschen Vierergruppe ($Z_2\times Z_2$)
+\begin{equation}
+	G = \nOf{-x,-\mI x^{-1},\mI x^{-1},\id}
+\end{equation}
+Beweis durch Multiplikationstabelle:
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c| *{4}{c|}}\hline
+		 & $-x$ & $-\mI x^{-1}$ & $\mI x^{-1}$ & $\id$ \\\hline
+		 $-x$ & $\id$ & $\mI x^{-1}$ & $-\mI x^{-1}$ & $-x$ \\\hline
+		 $-\mI x^{-1}$ & $\mI x^{-1}$ & $\id$ & $-x$ & $-\mI x^{-1}$ \\\hline
+		 $\mI x^{-1}$ & $-\mI x^{-1}$ & $-x$ & $\id$ & $\mI x^{-1}$ \\\hline
+		 $\id$ & $-x$ & $-\mI x^{-1}$ & $\mI x^{-1}$ & $\id$ \\\hline
+	\end{tabular}
+\end{table}
 
 \subsection{Beweisen Sie, dass $\fix\nOf{\mC\nOf{x};G}$ rationaler Fkt-Körper über $\mC$; $\fix\nOf{\mC\nOf{x};G} = \mC\nOf{y}$ mit $y\in\mC\nOf{x}$. $y$ angeben.}
+Folgende Bedingungen müssen erfüllt sein:
+\begin{equation}
+	y\nOf{x} = y\nOf{-x} \quad y\nOf{x} = y\nOf{\mI x^{-1}}
+\end{equation}
+$y\nOf{x} \mDef x^2-x^{-2}$ erfüllt beide Bedingungen. Nun muss gezeigt werden, dass beide Körper übereinstimmen. $\mC\nOf{y} \subset \fix\nOf{\mC\nOf{x};G}$, da beide Bedingungen erfüllt sind. Die andere Inklusion folgt daraus, dass $y\nOf{x}$ minimalen Grad hat.
