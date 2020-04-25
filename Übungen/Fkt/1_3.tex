@@ -7,4 +7,32 @@
 	Aus $\frac{d}{dx}u = -x^2+y^2$ folgt $w=\int_{}{} \frac{d}{dx} u dy =-x^2y+y^3/3+c(x)$, wobei c eine nur von x abhängige Funktion ist.\\
     Andererseits muss auch gelten $w=-\int_{}{} \frac{d}{dy} u dx= -\int_{}{} 2xy  dx =-x^2y+c(y)$, d.h. $c(y)=\frac{y^3}{3}$\\
 	Zusammengenommen ergibt sich:
-	    $w(x,y)=-x^2y+\frac{y^3}{3}$ bzw. $f(x,y)=-\frac{x^3}{3}+ x^2y +\mI(-x^2y+\frac{y^3}{3})$
+	    $w(x,y)=-x^2y+\frac{y^3}{3}$ bzw. $f(x,y)=-\frac{x^3}{3}+ x^2y +\mI(-x^2y+\frac{y^3}{3}+c)$ mit $c\in\mR\\
+Die Funktion $f$ ist dabei sogar auf ganz $\mC$ komplex differenzierbar. Gleichzeitig folgt aus der Konstruktion von $f$, dass jede auf ganz $\mC$ komplex differenzierbare Funktion, die $u$ als Realteil besitzt von obiger Form sein muss, d.h.
+\begin{equation*}
+\left\{f\text{ ganz mit }u\text{ als Realteil}\right\}=\left\{x+\mI y\mapsto-\frac{x^3}{3}+x^2y+\mI(-x^2y+\frac{y^3}{3}+c)\,:\,c\in\mR\right\}
+\end{equation*}
+
+	\subsection{Konstanter Betrag}
+	Ist $f$ die Nullfunktion auf $\Omega$, so sind sowohl $|f|$ als auch $f$ auf $\Omega$ konstant. Sei also im Folgenden $f$ nicht konstant null, dann gilt dies auch für $|f|$.\\
+	Sei $|f|=|u+\mI v|$ konstant auf $\Omega\subset\mC$, dann ist auch $|f|^{2}=u^{2}+v^{2}$ konstant auf $\Omega$. Ableiten nach $x$ bzw. $y$ liefert:
+	\begin{align*}
+		&2uu_{x}+2vv_{x}=0 \Leftrightarrow uu_{x}+vv_{x}=0\\
+		&2uu_{y}+2vv_{y}=0 \Leftrightarrow uu_{y}+vv_{y}=0.
+	\end{align*}
+Da $f$ nach Voraussetzung komplex differenzierbar auf $\Omega$ ist, gelten die Cauchy-Riemannschen Differentialgleichungen:
+	\begin{align*}
+		&uv_{y}+vv_{x}=0 \Rightarrow 0=(uv_{y}+vv_{x})^{2}=(uv_{y})^{2}+(vv_{x})^{2}+2uvv_{x}v_{y}\\
+		&vv_{y}-uv_{x}=0 \Rightarrow 0=(vv_{y}-uv_{x})^{2}=(vv_{y})^{2}+(uv_{y})^{2}-2uvv_{x}v_{y}.
+	\end{align*}
+Addition dieser beiden Gleichungen liefert schließlich:
+	\begin{align*}
+		&0=(uv_{y})^{2}+(vv_{x})^{2}+(vv_{y})^{2}+(uv_{y})^{2}=\underbrace{(u^{2}+v^{2})}_{=\text{const.}\neq0}			(v_{x}^{2}+v_{y}^{2})\\
+		&\Rightarrow v_{x}^{2}+v_{y}^{2}=0 \Rightarrow v_{x}=v_{y}=0
+	\end{align*}
+Die letzte Implikation gilt, da $v$ eine reelle Funktion ist, Quadrate also stets nicht-negativ sind. Aus den Cauchy-Riemannschen Differentialgleichungen erhält man nun, dass
+	\begin{align*}
+		&0=v_{x}=-u_{y}\\
+		&0=v_{y}=u_{x}
+	\end{align*}
+Also sind sowohl Real- als auch Imaginärteil der Funktion $f$ weder von $x$ noch von $y$ abhängig und damit konstant, womit auch $f$ insgesamt konstant auf ganz $\Omega$ ist.
