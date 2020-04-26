@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.22)  26 APR 2020 00:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.22)  26 APR 2020 19:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1316,7 +1316,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)) (./A_2.tex
+))
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
  Make it at least 27.39996pt.
@@ -1325,27 +1325,34 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
+] (./A_2.tex
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
  Make it at least 27.39996pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]) (./A_3.tex)
+[2])
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
  Make it at least 27.39996pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] (./Blatt_A.aux) ) 
+[3] (./A_3.tex)
+
+Package Fancyhdr Warning: \headheight is too small (17.0pt): 
+ Make it at least 27.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4] (./Blatt_A.aux) ) 
 Here is how much of TeX's memory you used:
- 27159 strings out of 492982
- 667582 string characters out of 6134896
- 936287 words of memory out of 5000000
- 30211 multiletter control sequences out of 15000+600000
- 21602 words of font info for 87 fonts, out of 8000000 for 9000
+ 27104 strings out of 492982
+ 666816 string characters out of 6134896
+ 936289 words of memory out of 5000000
+ 30163 multiletter control sequences out of 15000+600000
+ 10273 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,19n,106p,8818b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
@@ -1360,10 +1367,10 @@ e1/public/hfbright/hfbrsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/hfbright/hfbrsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbr
 ight/hfbrsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.
 pfb>
-Output written on Blatt_A.pdf (3 pages, 111706 bytes).
+Output written on Blatt_A.pdf (4 pages, 113123 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
