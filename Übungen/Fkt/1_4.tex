@@ -1,6 +1,6 @@
 \section{Komplexe Differenzierbarkeit}
 \subsection{Differenzenquotient}
-Komplexe Funktionen werden im Folgenden mit Kleinbuchstaben, die dazu assoziierten Vektrofelder im $\mR^{2}$ hingegen mit Großbuchstaben gekenntzeichnet. Der zu $z\in\mC$ assoziierte Vektor im $\mR^{2}$ wird dabei mit $x$ bezeichnet.\\
+Komplexe Funktionen werden im Folgenden mit Kleinbuchstaben, die dazu assoziierten Vektorfelder im $\mR^{2}$ hingegen mit Großbuchstaben gekenntzeichnet. Der zu $z\in\mC$ assoziierte Vektor im $\mR^{2}$ wird dabei mit $x$ bezeichnet.\\
 Sei $F:\Omega\rightarrow \mR^{2}$ das zu $f:\Omega\rightarrow\mC$ assoziierte Vektorfeld und dessen Differential im Punkt $x_{0}$\ $\mC$-linear. Dann existiert also eine $\mC$-lineare Abbildung $L:\mR^{2}\rightarrow\mR^{2}$ mit
 \begin{align*}
     \lim_{h\to0}\frac{||R(h)||}{||h||}=0
@@ -20,7 +20,7 @@ Sei nun in $z_{0}$ der Differenzenquotient existent, d.h.
 \end{align*}
 existiert. Dann gilt obige Gleichung jedoch auch betragsmäßig. Wähle nun $l:\mC\rightarrow\mC$ $\mC$-linear mit $\lim_{h\to0}\frac{l(h)}{h}=l(1)=f'(z_{0})$. Diese Eigenschaft gilt dann offensichtlich auch für das assoziierte Vektorfeld $L$. Ferner ist
 \begin{align*}
-    ||F'(x_{0}||=\lim_{h\to0}\frac{||F(x_{0}+h)-F(x_{0})||}{||h||}=\lim_{h\to0}\frac{||R(h)+L(h)||}{||h||}\overset{*}{\leq}\lim_{h\to0}\frac{||R(h)||}{||h||}+\underbrace{\frac{||L(h)||}{||h||}}_{=||F'(x_{0})||} \Rightarrow \lim_{h\to0}\frac{||R(h)||}{||0||}=0.
+    ||F'(x_{0})||=\lim_{h\to0}\frac{||F(x_{0}+h)-F(x_{0})||}{||h||}=\lim_{h\to0}\frac{||R(h)+L(h)||}{||h||}\overset{(*)}{\leq}\lim_{h\to0}\frac{||R(h)||}{||h||}+\underbrace{\frac{||L(h)||}{||h||}}_{=||F'(x_{0})||} \Rightarrow \lim_{h\to0}\frac{||R(h)||}{||0||}=0.
 \end{align*}
 Dabei haben wir bei (*) die Dreiecksungleichung für die Norm $||.||$ verwendet. Damit ist also das assoziierte Vektorfeld $F$ im Punkt $x_{0}$ total differenzierbar mit $\mC$-linearem Differential. Wieder waren $z_{0}$ bzw. $x_{0}$ beliebieg gewählt, sodass die Aussage für alle $z\in\Omega$ folgt.
 
