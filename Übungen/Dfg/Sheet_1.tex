@@ -8,7 +8,21 @@
 \begin{document}
 	\section{holomorphic functions}
 
-	\subsection{Let $f : \cC^n \to \cC$ be a holomorphic function.	The functions $\Re\nOf{f}$ and $\Im\nOf{f}$ are harmonic}
+	\subsection{Let $f : \cC^n \to \cC$ be a holomorphic function.	The functions $u=\Re\nOf{f}$ and $v=\Im\nOf{f}$ are harmonic}
+	With the Cauchy-Riemann-DGL:
+	\begin{equation}
+		\pdv{u}{x_i} = \pdv{v}{y_i} \quad \pdv{u}{y_i} = - \pdv{v}{x_i} \quad \forall\; i\in\mN
+	\end{equation}
+	We get:
+	\begin{gather}
+		\npdv{u}{x_i}{2}  = \pdv{}{x_i}\nOf{\pdv{u}{x_i}} = \pdv{}{x_i} \pdv{v}{y_i} = \pdv{}{y_i}\pdv{v}{x_i} = \pdv{}{y_i}\nOf{-\pdv{u}{y_i}} = - \npdv{u}{y_i}{2} \quad \forall\; i\in\mN\\
+		\npdv{v}{x_i}{2}  = \pdv{}{x_i}\nOf{-\pdv{u}{y_i}} = - \pdv{}{y_i}\pdv{u}{x_i} = - \pdv{}{y_i}\nOf{\pdv{v}{y_i}} = - \npdv{v}{y_i}{2} \quad \forall\; i\in\mN
+	\end{gather}
+	Therefore:
+	\begin{gather}
+		\Laplace u = \sum\limits_{i=1}^n \nOf{\npdv{u}{x_i}{2} + \npdv{u}{y_i}{2}} = 0 \\
+		\Laplace v = \sum\limits_{i=1}^n \nOf{\npdv{v}{x_i}{2} + \npdv{v}{y_i}{2}} = 0
+	\end{gather}
 
 	\subsection{Let $U\subset \cC^n$ be a connected open subset. Every non-constant harmonic function $f : U \to \mR$ has no extremum on $U$}
 

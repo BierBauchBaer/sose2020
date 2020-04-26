@@ -7,7 +7,18 @@
 Ist eine Karte von $U$, da Bild und Urbild $U$ jeweils offen sind, und die Identität bijektiv ist.
 
 \subsection{Ist diese Konstruktion auch für beliebige abgeschlossene Mengen des $\mR^n$ möglich?}
-Nein, da die Abbildung dann nicht bijektiv von einer offenen Menge in eine offene Menge abbildet.
+Nein, da diese Abbildung dann nicht bijektiv von einer offenen Menge in eine offene Menge abbildet.
 
 \subsection{Stereographische Projektion ist Karte der $S^n$. Weitere Karten für $2\nOf{n+1}$ Hemisphären $U_{i,\pm}$ für $i = 1,\dots,n+1$. Braucht man alle Hemisphären für Überdeckung? Kartenwechsel $\rightarrow$ $\mC^1$-Atlas?}
-Nein, da man die stereographische Projektion folgendermaßen definieren kann, so dass man also nur zwei Karten braucht.
+Für die Hemisphären $U_{1,\pm}$ gibt es zum Beispiel die Polarkoordinaten.
+Man braucht nicht alle Karten, da man auch eine Karte mit größerem Definitionsbereich nehmen könnte, in der dann zum Beispiel nur ein Pol fehlt. Nimmt man dann die andere Hemisphäre, so hat man die ganze $S^n$ überdeckt. 
+Die $\phi_{i,\pm}$ sind folgendermaßen definiert (Abbildungsvorschrift überall gleich, nur Definitionsbereich anders), Abkürzung $\sin\nOf{\phi^j} = \sin^j$ Da die Abbildungsvorschriften gleich sind, ist der Kartenwechsel die Identität
+\begin{align}
+	\phi_{1,+}&: \nOf{0,\pi}^n \to \mR^{n+1}\\
+	\phi_{1,-}&: \nOf{\pi,2\pi}\times\nOf{0,\pi}^{n-1} \to \mR^{n+1}\\
+	\phi_{2,+}&:	\nOf{-\frac{\pi}{2},\frac{\pi}{2}}\times\nOf{0,\pi}^n \to \mR^{n+1}\\
+	\phi_{2,-}&:	\nOf{\frac{\pi}{2},\frac{3\pi}{2}}\times\nOf{0,\pi}^n \to \mR^{n+1}\\
+	\phi_{i,+}&: \nOf{0,2\pi}\times\nOf{0,\pi}^{j-2}\times\nOf{0,\frac{\pi}{2}}\times\nOf{0,\pi}^{n-j+1} \to \mR^{n+1}\\
+	\phi_{i,-}&: \nOf{0,2\pi}\times\nOf{0,\pi}^{j-2}\times\nOf{\frac{\pi}{2},\pi}\times\nOf{0,\pi}^{n-j+1} \to \mR^{n+1}\\
+	\nOf{\phi^1,\dots,\phi^n} &\mapsto \nOf{\sin^1\dots\sin^n,\cos^1\dots\sin^n,\cos^2\dots\sin^n,\dots,\cos^n}
+\end{align}
