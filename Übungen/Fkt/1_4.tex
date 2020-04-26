@@ -1,0 +1,33 @@
+\section{Komplexe Differenzierbarkeit}
+\subsection{Differenzenquotient}
+Komplexe Funktionen werden im Folgenden mit Kleinbuchstaben, die dazu assoziierten Vektrofelder im $\mR^{2}$ hingegen mit Großbuchstaben gekenntzeichnet. Der zu $z\in\mC$ assoziierte Vektor im $\mR^{2}$ wird dabei mit $x$ bezeichnet.\\
+Sei $F:\Omega\rightarrow \mR^{2}$ das zu $f:\Omega\rightarrow\mC$ assoziierte Vektorfeld und dessen Differential im Punkt $x_{0}$\ $\mC$-linear. Dann existiert also eine $\mC$-lineare Abbildung $L:\mR^{2}\rightarrow\mR^{2}$ mit
+\begin{align*}
+    \lim_{h\to0}\frac{||R(h)||}{||h||}=0
+\end{align*}
+für $R(h)=F(x_{0}+h)-F(x_{0})-L(h)$. Übersetzt in die komplexe Ebene bedeutet dies:
+\begin{align*}
+    \lim_{h\to0}\frac{|r(h)|}{|h|}=0 \Rightarrow \lim_{h\to0}\frac{r(h)}{h}=0
+\end{align*}
+für $r(h)=f(z_{0}+h)-f(z_{0})-l(h)$. Dann gilt aber
+\begin{align*}
+    \lim_{h\to0}\frac{f(z_{0}+h)-f(z_{0})}{h}= \lim_{h\to0}\frac{r(h)+l(h)}{h}=\lim_{h\to0}\frac{r(h)}{h}+\frac{l(h)}{h}=0+\lim_{h\to0}\frac{l(h)}{h}=\lim_{h\to0}l\left(\frac{h}{h}\right)=l(1).
+\end{align*}
+Im letzten Schritt wurde dabei die $\mC$-Linearität von $L$ und damit auch von $l$ ausgenutzt. Der Differenzenquotient existiert also in $z_{0}$. Da $x_{0}$ bzw. $z_{0}$ beliebeig gewählt warne, folgt dies für jedes $z\in\Omega$.\\[8pt]
+Sei nun in $z_{0}$ der Differenzenquotient existent, d.h.
+\begin{align*}
+    f'(z_{0})\mDef\lim_{h\to0}\frac{f(z_{0}+h)-f(z_{0})}{h}
+\end{align*}
+existiert. Dann gilt obige Gleichung jedoch auch betragsmäßig. Wähle nun $l:\mC\rightarrow\mC$ $\mC$-linear mit $\lim_{h\to0}\frac{l(h)}{h}=l(1)=f'(z_{0})$. Diese Eigenschaft gilt dann offensichtlich auch für das assoziierte Vektorfeld $L$. Ferner ist
+\begin{align*}
+    ||F'(x_{0}||=\lim_{h\to0}\frac{||F(x_{0}+h)-F(x_{0})||}{||h||}=\lim_{h\to0}\frac{||R(h)+L(h)||}{||h||}\overset{*}{\leq}\lim_{h\to0}\frac{||R(h)||}{||h||}+\underbrace{\frac{||L(h)||}{||h||}}_{=||F'(x_{0})||} \Rightarrow \lim_{h\to0}\frac{||R(h)||}{||0||}=0.
+\end{align*}
+Dabei haben wir bei (*) die Dreiecksungleichung für die Norm $||.||$ verwendet. Damit ist also das assoziierte Vektorfeld $F$ im Punkt $x_{0}$ total differenzierbar mit $\mC$-linearem Differential. Wieder waren $z_{0}$ bzw. $x_{0}$ beliebieg gewählt, sodass die Aussage für alle $z\in\Omega$ folgt.
+
+\subsection{Komplexe Konjugation}
+Sei $f(z)=\bar{z}$. Angenommen der komplexe Differenzenquotient von $f$ existiere für ein $z_{0}\in\mC$. Dann müssen insbesondere die Grenzwerte für $h\to0$ mit $h\in\mR$ und $\eta\to0$ mit $\eta\in\mI\mR$ identisch sein. Wir überprüfen:
+\begin{align*}
+    &\lim_{h\to0}\frac{f(z_{0}+h)-f(z_{0})}{h}=\lim_{h\to0}\frac{\bar{z_{0}}+h-\bar{z_{0}}}{h}=\lim_{h\to0}\frac{h}{h}=1\\
+    &\lim_{\eta\to0}\frac{f(z_{0}+\eta)-f(z_{0})}{\eta}=\lim_{\eta\to0}\frac{\bar{z_{0}}-\eta-\bar{z_{0}}}{\eta}=\lim_{\eta\to0}\frac{-\eta}{\eta}=-1
+\end{align*}
+Wir erhalten also einen Widerspruch $(1\neq-1)$ unabhängig vom gewählten $z_{0}\in\mC$. Folglich kann $f(z)=\bar{z}$ in keiner komplexen Zahl differenzierbar sein.
