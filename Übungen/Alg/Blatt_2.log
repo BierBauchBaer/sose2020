@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.23)  27 APR 2020 01:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.23)  27 APR 2020 01:57
 entering extended mode
-**./Blatt_A.tex
-(Blatt_A.tex
+**./Blatt_2.tex
+(Blatt_2.tex
 LaTeX2e <2018-12-01>
 ("C:\Program Files\MiKTeX 2.9\tex/latex/koma-script\scrartcl.cls"
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
@@ -201,10 +201,6 @@ LaTeX Info: Redefining \] on input line 2845.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/doublestroke\dsfont.sty"
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\mathrsfs.sty"
-Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup6
-)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
 Package: babel 2019/07/19 3.33 The Babel package
 
@@ -339,7 +335,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              `\addtokomafont' for the page style elements need
 (scrartcl)              explicite user intervention to work.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 17.
+(scrartcl)              package `fancyhdr' on input line 16.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
@@ -363,7 +359,7 @@ Class scrartcl Warning: Usage of package `titlesec' together
 (scrartcl)              the extended optional argument of the section
 (scrartcl)              commands.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `titlesec' on input line 19.
+(scrartcl)              package `titlesec' on input line 18.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/titlesec\titlesec.sty"
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
@@ -399,7 +395,7 @@ Package titlesec Warning: Non standard sectioning command \subparagraph
 
 )
 Class scrartcl Info: Deactivating the `titlesec' workaround,
-(scrartcl)           because package is newer than expected on input line 19.
+(scrartcl)           because package is newer than expected on input line 18.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
@@ -884,30 +880,22 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen256
 \l_MT_above_shortintertext_sep=\dimen257
 \l_MT_below_shortintertext_sep=\dimen258
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/tensor\tensor.sty"
-Package: tensor 2004/12/20 v2.1 tensor indices package (PGR)
-\tnsr@Sps=\toks44
-\tnsr@Sbs=\toks45
-\tnsr@Spe=\toks46
-\tnsr@Sbe=\toks47
-\ncld@Mno=\toks48
 )) (math.tex)
-(Blatt_A.aux)
-\openout1 = `Blatt_A.aux'.
+(Blatt_2.aux)
+\openout1 = `Blatt_2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
  ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count139
@@ -915,12 +903,12 @@ LaTeX Font Info:    ... okay on input line 8.
 \scratchbox=\box48
 \nofMPsegments=\count140
 \nofMParguments=\count141
-\everyMPshowfont=\toks49
+\everyMPshowfont=\toks44
 \MPscratchCnt=\count142
 \MPscratchDim=\dimen260
 \MPnumerator=\count143
 \makeMPintoPDFobject=\count144
-\everyMPtoPDFconversion=\toks50
+\everyMPtoPDFconversion=\toks45
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1003,27 +991,21 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 8.
+ on input line 9.
 
-(A_1.tex
-LaTeX Font Info:    Font shape `OT1/cmbr/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/cmbr/m/sl' tried instead on input line 1.
-LaTeX Font Info:    Try loading font information for OML+cmbrm on input line 2.
+(2/2_1.tex
+LaTeX Font Info:    Try loading font information for OML+cmbrm on input line 1.
 
  ("C:\Program Files\MiKTeX 2.9\tex/latex/cmbright\omlcmbrm.fd"
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Try loading font information for OMS+cmbrs on input line 2.
+LaTeX Font Info:    Try loading font information for OMS+cmbrs on input line 1.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/cmbright\omscmbrs.fd"
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\ursfs.fd"
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
+)) (2/2_2.tex)
+(2/2_3.tex) (2/2_4.tex)
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
 Make it at least 27.39996pt.
@@ -1033,36 +1015,32 @@ This may cause the page layout to be inconsistent, however.
 [1{C:/Users/Klossfresser/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
-(A_2.tex [2]) [3] (A_3.tex) [4] (Blatt_A.aux) ) 
+(Blatt_2.aux) ) 
 Here is how much of TeX's memory you used:
- 27340 strings out of 492895
- 677052 string characters out of 3133458
- 975472 words of memory out of 3000000
- 30754 multiletter control sequences out of 15000+200000
- 10273 words of font info for 40 fonts, out of 3000000 for 9000
+ 27277 strings out of 492895
+ 676007 string characters out of 3133458
+ 974385 words of memory out of 3000000
+ 30700 multiletter control sequences out of 15000+200000
+ 9427 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,19n,106p,9088b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Klossfresser\AppData\
-Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi600\cmbr8.pk> <C:\Users\Klo
-ssfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi657\cmbrb
-s10.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/
-cmbright/dpi450\cmbrmi8.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fon
-ts/pk/ljfour/public/cmbright/dpi600\cmbrsy8.pk> <C:\Users\Klossfresser\AppData\
-Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi657\cmbrsy10.pk> <C:\Users\
-Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi600\cm
-brmi8.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/publi
-c/cmbright/dpi657\cmbrmi10.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\
-fonts/pk/ljfour/public/cmbright/dpi657\cmbrsl10.pk> <C:\Users\Klossfresser\AppD
-ata\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi720\cmbrbx10.pk> <C:\Us
-ers\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi65
-7\cmbrbx10.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
-public/cmbright/dpi657\cmbr10.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs10.pfb
->
-Output written on Blatt_A.pdf (4 pages, 94957 bytes).
+ 85i,18n,106p,9088b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/public/cmbright/dpi450\cmbr8.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2
+.9\fonts/pk/ljfour/public/cmbright/dpi600\cmbrsy8.pk> <C:\Users\Klossfresser\Ap
+pData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi657\cmbrbs10.pk> <C:\
+Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi
+600\cmbrmi8.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/public/cmbright/dpi657\cmbrsy10.pk> <C:\Users\Klossfresser\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/public/cmbright/dpi657\cmbrmi10.pk> <C:\Users\Klossfresse
+r\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright/dpi720\cmbrbx10.pk> 
+<C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/cmbright
+/dpi657\cmbrbx10.pk> <C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts/pk/l
+jfour/public/cmbright/dpi657\cmbr10.pk><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr10.pfb>
+Output written on Blatt_2.pdf (1 page, 47239 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
