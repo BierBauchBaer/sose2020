@@ -2,31 +2,37 @@
 	\section{Aufgabe 2}
 	
 	\subsection{}
-	$f(x,y)=x^3-3xy^2-2x+i(-y^3+3x^2y-2y) $ ist komplex differenzierbar in $x+iy$ gdw. die Jacobi-Matrix $\begin{pmatrix}
+    $f(x,y)=x^3-3xy^2-2x+i(-y^3+3x^2y-2y) $ ist komplex differenzierbar in $x+iy$ gdw. die Jacobi-Matrix
+    \begin{align*}
+    \begin{pmatrix}
 	\frac{d}{dx}x^3-3xy^2-2x & \frac{d}{dx}-y^3+3x^2y-2y\\ 
 	\frac{d}{dy}x^3-3xy^2-2 & \frac{d}{dy}-y^3+3x^2y-2y
 	\end{pmatrix}
 	=\begin{pmatrix}
 	3x^2-3y^2-2 & 6xy\\
     -6xy & -3y^2+3x^2-2
-    \end{pmatrix}$ 
+    \end{pmatrix}
+    \end{align*}
     schiefsymmetrisch ist. Dies ist offensichtlich für alle $x+iy \in \mathbb{C}$ erfüllt.\\
     Damit ist f auf ganz $\mathbb{C}$ komplex differenzierbar.
     
     \subsection{}
-    $g(x,y)=x^3+xy^2+i(y^3+3x^2y-2y) $ ist komplex differenzierbar in $x+iy$ gdw. die Jacobi-Matrix $\begin{pmatrix}
+    $g(x,y)=x^3+xy^2+i(y^3+3x^2y-2y) $ ist komplex differenzierbar in $x+iy$ gdw. die Jacobi-Matrix
+    \begin{align*}
+    \begin{pmatrix}
 	\frac{d}{dx}x^3+xy^2 & \frac{d}{dx}-y^3+3x^2y-2y\\ 
 	\frac{d}{dy}x^3+xy^2 & \frac{d}{dy}-y^3+3x^2y-2y
 	\end{pmatrix}
 	=\begin{pmatrix}
 	3x^2+y^2 & 6xy\\
     2xy & 3y^2+3x^2-2
-    \end{pmatrix}$ 
+    \end{pmatrix}
+    \end{align*}
     schiefsymmetrisch ist.\\
     Aus $-6xy=2xy$ folgt $x=0 \lor y=0$.\\
     Fall $x=0$: $y^2\stackrel{!}{=} 3y^2-2\Rightarrow y=\pm1$\\
     Fall $y=0$: $3x^2\stackrel{!}{=} 3x^2-2$ Widerspruch!\\
-    $g$ erfüllt also nur auf $\{ \pm1 \}$ die CRD, $g$ ist demnach nur auf $\O$ komplex differenzierbar.
+    $g$ erfüllt also nur auf $\{ \pm1 \}$ die CRD. Da jedoch $\{\pm1\}$ nicht offen ist, ist die größte Menge auf der $g$ komplex differenzierbar ist die leere Menge.
     \subsection{}
     $h(x,y)
     =sin(x+y^2-x^2+i(y-2xy))\\

@@ -1,0 +1,16 @@
+\section{Sei $K$ ein Körper, und sei $m\in K$. Zeigen Sie:}
+\subsection{Die Matrizen der Form $A$ bilden einen kommutativen Unterring $L_m$ von $M\nOf{2 \times 2,K}$.}
+\begin{equation}
+	A = \cOf{\nOf{\begin{array}{c c}a&b\\ mb&a\end{array}}}
+\end{equation}
+Als Teilmenge gilt Assoziativität, Distributivität und Kommutativität für $+$ automatisch. Bleibt zu zeigen, dass $L_m$ abgeschlossen ist unter $+$ und $\cdot$, und die Kommutativität von $\cdot$ in $L_m$:
+\begin{align}
+	\nOf{\begin{array}{c c}a&b\\ mb&a\end{array}} \cdot \nOf{\begin{array}{c c}c&d\\ md&c\end{array}} &= \nOf{\begin{array}{c c}ac+bdm&bc+ad\\ m\nOf{bc+ad}&ac+bdm\end{array}} \in A \\
+	\nOf{\begin{array}{c c}a&b\\ mb&a\end{array}} + \nOf{\begin{array}{c c}c&d\\ md&c\end{array}} &= \nOf{\begin{array}{c c}a+c&b+d\\ m\nOf{b+d}&a+c\end{array}} \in A \\
+	\nOf{\begin{array}{c c}c&d\\ md&c\end{array}} \cdot \nOf{\begin{array}{c c}a&b\\ mb&a\end{array}}&= \nOf{\begin{array}{c c}ac+bdm&bc+ad\\ m\nOf{bc+ad}&ac+bdm\end{array}} = \nOf{\begin{array}{c c}a&b\\ mb&a\end{array}} \cdot \nOf{\begin{array}{c c}c&d\\ md&c\end{array}}
+\end{align}
+
+\subsection{$L_m$ ist genau dann ein Körper, wenn $m$ kein Quadrat in $K$ ist.}
+
+
+\subsection{Ist $L_m$ ein Körper und $K=\mF_p$ mit einer ungeraden Primzahl $p$, so gilt $L_m \isom \mF_{p^2}$.}
