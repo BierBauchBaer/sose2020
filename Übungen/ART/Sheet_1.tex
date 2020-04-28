@@ -8,5 +8,18 @@
 \begin{document}
 	\section{UFF}
 	The Person will be seeing a Force og $m_g\cdot g$ which is equal to $m_i\cdot a + F_{scale}$ meaning the Force, the scale and the person interact with. So the Force, the scale sees is $F_{scale} = - m_i\cdot a + m_g\cdot g$
-	\section{energy conservation}}
+	\section{energy conservation}
+	The total momentum is given by $p = p_1 + p_2$. This is preserved, if $\pdv{p}{t} = 0$:
+	\begin{align}
+		\pdv{p_1}{t} = F_{1,2} & = - G m_{1,p} m_{2,a} \frac{x_1-x_2}{\vOf{x_1-x_2}^{3}} \\
+		\pdv{p_2}{t} = F_{2,1} & = - G m_{2,p} m_{1,a} \frac{x_2-x_1}{\vOf{x_2-x_1}^{3}}
+	\end{align}
+	So that now we have equivalences:
+	\begin{align}
+		& \pdv{p}{t} = 0 \\
+		\Leftrightarrow\quad & F_{1,2} + F_{2,1} = 0 \\
+		\Leftrightarrow\quad & - G \frac{1}{\vOf{x_2-x_1}^3}\nOf{m_{1,p} m_{2,a} \nOf{x_1-x_2} + m_{2,p} m_{1,a} \nOf{x_2-x_1}} = 0 \\
+		\Leftrightarrow\quad & m_{1,p}m_{2,a} = m_{2,p}m_{1,a} \\
+		\Leftrightarrow\quad & \frac{m_{1,p}}{m_{1,a}} = \frac{m_{2,p}}{m_{2,a}} 
+	\end{align}
 \end{document}

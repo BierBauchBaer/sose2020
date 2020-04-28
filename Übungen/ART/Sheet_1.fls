@@ -238,6 +238,12 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titletoc.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titletoc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty
 INPUT math.tex
 INPUT math.tex
 INPUT Sheet_1.aux
@@ -292,6 +298,8 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cmbright\cmbrbx10.tfm
 OUTPUT Sheet_1.pdf
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT Sheet_1.aux
+INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbr8.pk
+INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbr8.pk
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi657\cmbrsy10.pk
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi657\cmbrsy10.pk
 INPUT C:\Users\Klossfresser\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrmi8.pk

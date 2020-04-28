@@ -11,6 +11,29 @@ Als Teilmenge gilt Assoziativität, Distributivität und Kommutativität für $+
 \end{align}
 
 \subsection{$L_m$ ist genau dann ein Körper, wenn $m$ kein Quadrat in $K$ ist.}
+Sei $m=c^2$ ein Quadrat in $K$, wähle $a$ beliebig und $b = \frac{a}{c}\in K$, da $K$ Körper ist. Dann ist $L_m$ kein Körper, da:
+\begin{equation}
+	\det \nOf{\begin{array}{c c}a&b\\ mb&a\end{array}} = a^2 - m b^2 = a^2 - a^2 = 0
+\end{equation}
+also $\nOf{\begin{array}{c c}a&b\\ mb&a\end{array}}$ nicht invertierbar.\\
+Ist $L_m$ kein Körper, so existieren $a,b\in K$, sodass $\nOf{\begin{array}{c c}a&b\\ mb&a\end{array}}$ nicht invertierbar ist, also folglich:
+\begin{equation}
+	\det \nOf{\begin{array}{c c}a&b\\ mb&a\end{array}} = a^2 - m b^2 \stackrel{!}{=} 0
+\end{equation}
+Damit folgt, dass $m$ ein Quadrat ist.
+\begin{equation}
+	a^2 = mb^2 \quad \frac{a^2}{b^2} = \frac{a}{b}^2 = m
+\end{equation}
 
-
-\subsection{Ist $L_m$ ein Körper und $K=\mF_p$ mit einer ungeraden Primzahl $p$, so gilt $L_m \isom \mF_{p^2}$.}
+\subsection{Ist $L_m$ ein Körper und $K=\mF_p$ mit einer ungeraden Primzahl $p$, so gilt $L_m \isom \mF_{p^2}$.} Nach Algebra I Satz 5.60 sind je zwei Körper mit $p^n$ Elementen isomorph. Da wir eine bijektive Abbildung von $L_m$ nach $\mF_p\times\mF_p$ finden, ist $\vOf{L_m} = p^2$. Somit wäre die Isomorphie bewiesen. Die bijektive Abbildung ist:
+\begin{equation}
+	f: L_m \to \mF_p^2; \nOf{\begin{array}{c c}a&b\\ mb&a\end{array}} \mapsto (a,b)
+\end{equation}
+Injektivität:
+\begin{equation}
+	(a,b) \in \mF_p^2 \Rightarrow f\nOf{\begin{array}{c c}a&b\\ mb&a\end{array}} = (a,b)
+\end{equation}
+Surjektivität:
+\begin{equation}
+	(a,b) = (c,d) \Rightarrow a=c,b=d \Rightarrow \nOf{\begin{array}{c c}a&b\\ mb&a\end{array}} = \nOf{\begin{array}{c c}c&d\\ md&c\end{array}}
+\end{equation}
