@@ -39,4 +39,23 @@
     =\frac{1}{2i}(e^{i(x+y^2-x^2)-y+2xy}-e^{i(-x-y^2+x^2)+y-2xy})\\
     =\frac{-i}{2}(e^{-y+2xy}(cos(x+y^2-x^2)+isin(x+y^2-x^2))-e^{y-2xy}(cos(-x-y^2+x^2)+isin(-x-y^2+x^2)))\\
     =\frac{1}{2} e^{-y+2xy}sin(x+y^2-x^2)-\frac{1}{2}e^{y-2xy}sin(-x-y^2+x^2) +\frac{i}{2}(-e^{-y+2xy}cos(x+y^2-x^2)+e^{y-2xy}cos(-x-y^2+x^2)$\\
-    Jetzt noch die JM aufstellen.
+    Damit ist die Jacobimatrix gegeben durch die partiellen Ableitungen der Funktionen:
+    \begin{align}
+        u\nOf{x,y} & = \frac{1}{2}\nOf{\mE{-y+2xy}\sin\nOf{x+y^2-x^2}-\mE{y-2xy}\sin\nOf{-x-y^2+x^2}} \\
+        v\nOf{x,y} & = \frac{1}{2}\nOf{-\mE{-y+2xy}\cos\nOf{x+y^2-x^2}+\mE{y-2xy}\cos\nOf{-x-y^2+x^2}}
+    \end{align}
+    \begin{equation}
+        D_{\nOf{x,y}}\nOf{u,v} 
+        = \nOf{\begin{array}{cc}\pdv{u}{x}&\pdv{u}{y}\\\pdv{v}{x}&\pdv{v}{y}\end{array}}
+    \end{equation}
+    \begin{align}
+        \pdv{u}{x} & = \frac{1}{2}\nOf{2y\mE{-y+2xy}\sin\nOf{x+y^2-x^2}+\nOf{1-2x}\mE{-y+2xy}\cos\nOf{x+y^2-x^2}+ 2y\mE{y-2xy}\sin\nOf{-x-y^2+x^2}-\nOf{-1+2x}\mE{-y+2xy}\cos\nOf{-x-y^2+x^2}} \\
+        & = y\sin\nOf{x+y^2-x^2}\nOf{\mE{-y+2xy}-\mE{y-2xy}}+\nOf{\frac12-x}\cos\nOf{x+y^2-x^2}\nOf{\mE{-y+2xy}+\mE{y-2xy}} \\
+        \pdv{u}{y} & = \frac{1}{2}\nOf{\nOf{2x-1}\mE{-y+2xy}\sin\nOf{x+y^2-x^2}+2y\mE{-y+2xy}\cos\nOf{x+y^2-x^2}-\nOf{1-2x}\mE{y-2xy}\sin\nOf{-x-y^2+x^2}+2y\mE{y-2xy}\cos\nOf{-x-y^2+x^2}} \\
+        & = y\cos\nOf{x+y^2-x^2}\nOf{\mE{y-2xy}+\mE{-y+2xy}}+\nOf{x-\frac12}\sin\nOf{x+y^2-x^2}\nOf{\mE{-y+2xy}-\mE{y-2xy}} \\
+        \pdv{v}{x} & = \frac{1}{2}\nOf{-2y\mE{-y+2xy}\cos\nOf{x+y^2-x^2}+\nOf{1-2x}\mE{-y+2xy}\sin\nOf{x+y^2-x^2}-2y\mE{y-2xy}\cos\nOf{-x-y^2+x^2}-\nOf{2x-1}\mE{y-2xy}\sin\nOf{-x-y^2+x^2}} \\
+        & = -y\cos\nOf{x+y^2-x^2}\nOf{\mE{-y+2xy}+\mE{y-2xy}}+\nOf{\frac12-x}\sin\nOf{x+y^2-x^2}\nOf{\mE{-y+2xy}-\mE{y-2xy}}\\
+        \pdv{v}{y} & = \frac{1}{2}\nOf{\nOf{1-2x}\mE{-y+2xy}\cos\nOf{x+y^2-x^2}+2y\mE{-y+2xy}\sin\nOf{x+y^2-x^2}+\nOf{1-2x}\mE{y-2xy}\cos\nOf{-x-y^2+x^2}+2y\mE{y-2xy}\sin\nOf{-x-y^2+x^2}} \\
+        & = -y\sin\nOf{x+y^2-x^2}\nOf{\mE{y-2xy}-\mE{-y+2xy}}+\nOf{\frac12-x}\cos\nOf{x+y^2-x^2}\nOf{\mE{y-2xy}+\mE{-y+2xy}}
+    \end{align}
+    Damit sind die Cauchy-Riemannschen Differentialgleichungen überall erfüllt, und die Funktion ist holomorph (komplex differenzierbar auf ganz $\mC$)
