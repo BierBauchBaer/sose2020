@@ -1,0 +1,29 @@
+\section{Mannigfaltigkeiten}
+\subsection{Geraden}
+Wir identifizieren die reelle Achse $\mR$ mit der Standardtopologie jeweils mit $\mR\times\cOf{1}$ und $\mR\times\cOf{-1}$. Das heißt, dass wir zwei Kopien von $\mR$ nehmen und sie formal unterscheiden. Danach führen wir auf $\mR\times\cOf{1}\cup\mR\times\cOf{-1}$ die Äquivalenzrelation
+\begin{align}
+	\nOf{x,1}\sim\nOf{y,1}&\eqDef x = y \\
+	\nOf{x,-1}\sim\nOf{y,-1}&\eqDef x = y \\
+	\nOf{x,1}\sim\nOf{y,-1}&\eqDef x = y \neq 0
+\end{align}
+ein. Nun betrachten wir $M\mDef\nOf{\mR\times\cOf{1}\cup\mR\times\cOf{-1}}/\sim$ mit der Quotiententopologie und die Abbildungen
+\begin{equation}
+	\phi_i : U_i \to \mR; \eOf{\nOf{x,i}} \mapsto \left\{\begin{array}{l r}x & \text{für} x \neq 0\\0&\text{sonst}\end{array}\right.
+\end{equation}
+wobei $U_i = \eOf{\mR\times\cOf{i}}$ und $i = \pm 1$ sind. Ist $M$ eine glatte Mannigfaltigkeit?
+
+
+\subsection{Finden Sie für $M$ eine Äquivalenzrelation auf $\mR^2\setminus\cOf{\nOf{0,0}}$.}
+
+
+\subsection{Sei $M = \sDf{\nOf{x,0}\in\mR^2}{x\in\mR}\cup\sDf{\nOf{x,\alpha x^3}}{x\in\mR_{>0}}$ mit $\alpha\neq 0$, sowie die Mengen}
+\begin{align}
+	U & = \sDf{\nOf{x,0}\in\mR^2}{x\in\mR} \\
+	V & = \sDf{\nOf{x,0}\in\mR^2}{x\in\mR_{\leq 0}}\cup\sDf{\nOf{x,\alpha x^3}}{x\in\mR_{>0}}
+\end{align}
+mit den Abbildungen
+\begin{align}
+	\phi &: U \to \mR; \nOf{x,0} \mapsto x \\
+	\psi &: V \to \mR; \nOf{x,y} \mapsto \left\{\begin{array}{l l}x & \text{für} y = 0\\x \text{für} y = \alpha x^3\end{array}\right.
+\end{align}
+gegeben. Ist $M$ eine glatte Mannigfaltigkeit?
