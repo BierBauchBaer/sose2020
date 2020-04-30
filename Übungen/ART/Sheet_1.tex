@@ -24,6 +24,34 @@
 		\Leftrightarrow\quad & \frac{m_{1,p}}{m_{1,a}} = \frac{m_{2,p}}{m_{2,a}} 
 	\end{align}
 
-	\section{}
-	
+	\section{gravitational field of a mass distribution}
+	With the definition of $M$, we have the following:
+	\begin{align}
+		M & \mDef \lim\limits_{r\to\infty} \cOf{\frac{1}{4\pi G}\int\limits_{S^2\nOf{r}}\Nabla\phi\cdot \vN\dd{o}} \\
+		& = \lim\limits_{r\to\infty} \cOf{\frac{1}{4\pi G}\int\limits_{B_0\nOf{r}}\Nabla\Nabla\phi\dd{v}} \\
+		& = \lim\limits_{r\to\infty} \cOf{\frac{1}{4\pi G}\int\limits_{B_0\nOf{r}}\Laplace\phi\dd{v}} \\
+		& = \lim\limits_{r\to\infty} \cOf{\frac{1}{4\pi G}\int\limits_{B_0\nOf{r}}4\pi G \rho \dd{v}} \\
+		& = \lim\limits_{r\to\infty} \cOf{\int\limits_{B_0\nOf{r}}\rho\dd{v}} \\
+		& = \int\limits_{\mR} \rho \dd{v}
+	\end{align}
+	which needed to be shown. \\
+	To show the next identity, one just has to write out and use the definitions.
+	\begin{align}
+		f\indices{_a} & = -\Nabla\indices{^b}t\indices{_a_b} \\
+		& = -\Nabla\indices{^b}\frac{1}{4\pi G}\nOf{\Nabla\indices{_a}\phi\Nabla\indices{_b}\phi - \frac{1}{2}\delta\indices{_a_b}\Nabla\indices{_c}\phi\Nabla\indices{^c}\phi} \\
+		& = \frac{1}{4\pi G}\nOf{\Nabla\indices{^b}\Nabla\indices{_a}\Phi\Nabla\indices{_b}\phi+\Nabla\indices{_a}\phi\Nabla\indices{^b}\Nabla\indices{_b}\phi-\frac12\Nabla\indices{^a}\Nabla\indices{_c}\phi\Nabla\indices{^c}\phi-\frac12\Nabla\indices{_c}\phi\Nabla\indices{_a}\Nabla\indices{^c}\phi} \\
+		& = \frac{1}{4\pi G}\nOf{\Nabla\indices{_a}\phi\Nabla\indices{^b}\Nabla\indices{_b}\phi} \\
+		& = \frac{1}{4\pi G}\nOf{\Nabla\indices{_a}\phi\Laplace\phi} \\
+		& = \rho\Nabla\indices{_a}
+	\end{align}
+	the result, as was expected. The tensor $t$ is symmetric, because all tensors in the definition of $t$ are symmetric. \\
+	The total force vanishes because of the gaussian integral theorem:
+	\begin{equation}
+		\int\limits_{\mR} \Nabla\indices{^b}t\indices{_a_b} \dd{v} = \int\limits_{\partial\mR} t\indices{_a_b}n\indices{^b}\dd{a} = 0
+	\end{equation}
+	Same for the total torque:
+	\begin{equation}
+		\int\limits_{\mR} \Nabla\indices{^b}t\indices{_a_b}x\indices{^a}\dd{v} = \int\limits_{\partial\mR} t\indices{_a_b}x\indices{^a}n\indices{^b}\dd{a} = 0
+	\end{equation}
+	where in both cases the point being is, that $\partial\mR$, the border of $\mR$ is empty.
 \end{document}
