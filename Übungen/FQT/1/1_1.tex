@@ -1,2 +1,10 @@
 \section{Coherent state}
-The coherent state $\ket{\alpha} \mDef$
+The coherent state  can be calculated as follows:
+\begin{align}
+	\ket{\alpha} \mDef \op{D}\nOf{\alpha}\ket{O}&  = \mE{-\vOf{\alpha}^2/2}\mE{\alpha\dg{a}}\mE{\cc{\alpha}\op{a}}\ket{O} && |\text{by definition} \\
+	& = \mE{-\vOf{\alpha}^2/2}\sum\limits_{n=0}^{\infty}\frac{1}{n!} \alpha^n \dg{a}^n\sum\limits_{k=0}^{\infty}\frac{1}{k!} \cc{\alpha}^k \op{a}^k\ket{O} && \text{exponential series}\\
+	& = \mE{-\vOf{\alpha}^2/2}\sum\limits_{n=0}^{\infty}\frac{1}{n!} \alpha^n \dg{a}^n\sum\limits_{k=0}^{\infty}\frac{1}{k!}\cc{\alpha}^k \ket{O} && \op{a}\ket{O} = \ket{O} \\
+	& = \mE{-\vOf{\alpha}^2/2}\sum\limits_{n=0}^{\infty} \frac{\alpha^n}{n!} \dg{a}\ket{O} \\
+	& = \mE{-\vOf{\alpha}^2/2}\sum\limits_{n=0}^{\infty} \frac{\alpha^n}{n!} \sqrt{n!}\ket{n} \\
+	& = \mE{-\vOf{\alpha}^2/2}\sum\limits_{n=0}^{\infty} \frac{\alpha^n}{\sqrt{n!}} \ket{n} \\
+\end{align}

@@ -7,3 +7,19 @@
 \subsection{Gilt die Umkehrung der obigen Aussage?}
 
 
+\subsection{Welche Aussage aus Analysis I wird durch (a) verallgemeinert?}
+
+
+\subsection{Sei $M$ wegzusammenhängend. Zeigen Sie, dass $M$ auch zusammenhängend ist.} 
+Sei $M$ nicht zusammenhängend.
+Dann existieren $A_1, A_2 \in O_M$, die disjunkt sind und $A_1\cup A_2 = M$ erfüllen. Sei nun $\gamma$ ein beliebiger stetiger Weg von $a\in A_1$ nach $b\in A_2$, mit der Eigenschaft, dass $\gamma\nOf{t} \in M \,\forall\, t\in \eOf{0,1}$. Da $M$ offen ist, existiert für jeden Punkt auf $\gamma$ eine offene Umgebung $U\nOf{\gamma\nOf{t}}$ die in $M$ enthalten ist. Vereinigen wir nun, so muss folgende Menge in $O_M$ enthalten sein:
+\begin{equation}
+	A \mDef \bigcup\limits_{t\in\eOf{0,1}} U\nOf{\gamma\nOf{t}} \in O_M
+\end{equation}
+Nun gilt:
+\begin{align}
+	A \cap A_1 & \neq \emptyset \\
+	A \cap A_2 & \neq \emptyset \\
+	A_1 \cup A_2 & = M \\
+	A_1 \cap A_2 & = \emptyset \\
+	A \subset M \\
