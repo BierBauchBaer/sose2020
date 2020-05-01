@@ -7,7 +7,12 @@ Es ergibt sich folgende Zerlegung in irreduzible Faktoren
 \begin{equation}
 	f\nOf{x} = \nOf{x^2-3}\nOf{x^2-2}
 \end{equation}
-Damit ist der Zerfällungskörper $\mQ\nOf{\sqrt{3},\sqrt{2}}$ 
+Damit ist der Zerfällungskörper $\mQ\nOf{\pm\sqrt{2},\pm\sqrt{3}} = \mQ\nOf{\sqrt{3},\sqrt{2}}$ 
 
 \subsection{und den Grad $\eOf{L:\mQ}$}
-Der Grad ist das Produkt der Grade der Minimalpolynome $x^2 - 3$ und $x^2-2$, also $4$.
+Der Grad ist das Produkt der Grade der Körpererweiterungen: 
+\begin{equation}
+	\eOf{\mQ\nOf{\sqrt3,\sqrt2}:\mQ} = \eOf{\mQ\nOf{\sqrt3,\sqrt2}:\mQ\nOf{\sqrt2}}\cdot\eOf{\mQ\nOf{\sqrt2}:\mQ}
+\end{equation}
+Die erste Erweiterung ist von Grad $2$, da sie der Zerfällungskörper von $x^2-2$ ist, welches irreduzibel über $\mQ$ ist, da es keine Nullstelle in $\mQ$ gibt. \\
+Die zweite Körpererweiterung ist auch von Grad $2$, da $x^2-3$ keine Nullstelle in $\mQ\nOf{\sqrt2}$ besitzt ($\sqrt3\notin\mQ\nOf{\sqrt2}$) und folglich irreduzibel ist. Die Körpererweiterung zu $L$ hat also Grad $4$.

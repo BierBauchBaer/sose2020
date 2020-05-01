@@ -8,8 +8,23 @@ welches separabel ist, da alle Nullstellen einfach sind ($\pm\sqrt{2}$, $\pm\sqr
 
 
 \subsection{Bestimmen Sie die Galoisgruppe $G\nOf{L/\mQ}$.}
+Es gibt vier Elemente der Galoisgruppe:
+\begin{align}
+	\varphi_1\nOf{\sqrt2} = -\sqrt2 & \quad \varphi_1\nOf{\sqrt3} = \sqrt3 \\
+	\varphi_2\nOf{\sqrt2} = \sqrt2 & \quad \varphi_2\nOf{\sqrt3} = -\sqrt3 \\
+	\varphi_3\nOf{\sqrt2} = -\sqrt2 & \quad \varphi_3\nOf{\sqrt3} = -\sqrt3 \\
+	\id\nOf{\sqrt2} = \sqrt2 & \quad \id\nOf{\sqrt3} = \sqrt3 
+\end{align}
+Andere Elemente gibt es nicht, da die Galoisgruppe die Nullstellen des Polynoms permutiert. Abbildungen $\phi$ die zum Beispiel $\sqrt2$ auf $\sqrt3$ abbilden sind keine Automorphismen auf $\mQ$, da
+\begin{equation}
+	3 = \phi\nOf{3} = \phi\nOf{\sqrt3\sqrt3} = \phi\nOf{\sqrt3}\phi\nOf{\sqrt3} = \sqrt2\sqrt2 = 2
+\end{equation}
 Die Galoisgruppe ist isomorph zur kleinschen Vierergruppe.
 
 
 \subsection{Bestimmen Sie alle Zwischenkörper.}
-Die Zwischenkörper sind $\mQ\nOf{\sqrt{2}}$, $\mQ\nOf{\sqrt{3}}$ und $\mQ\nOf{\sqrt{6}}$
+Die Zwischenkörper sind $\mQ\nOf{\sqrt{3}}$, $\mQ\nOf{\sqrt{2}}$ und $\mQ\nOf{\sqrt{6}}$, die Fixkörper der Untergruppen erzeugt von $\varphi_1$, $\varphi_2$ und $\varphi_3$. $\sqrt6$ ist Fix, da
+\begin{equation}
+	\sqrt6 = \sqrt3\sqrt2 = \nOf{-\sqrt3}\nOf{-\sqrt2} = \varphi_3\nOf{\sqrt3\sqrt2} = \varphi_3\nOf{\sqrt6}
+\end{equation}
+Es gibt keine anderen Untergruppen (außer $\cOf{\id}$ und $G\nOf{L/\mQ}$)

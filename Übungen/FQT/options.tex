@@ -2,6 +2,8 @@
 % Sonderzeichen
 \usepackage{amssymb}
 \usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{dsfont}
 % Formeln, ...
 \usepackage[german]{babel}
 % Deutsch
@@ -24,26 +26,26 @@
 % Captions mit captionof{<figure/table>}{<Name>}
 \usepackage{pgfplotstable}
 % Tabellen aus .dat
-\usepackage{titletoc}
-% Für Inhaltsverzeichnis
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs}
+\everymath{\displaystyle}
+% Für Falks Schriften
+\usepackage{pdfpages}
 
-\titlecontents{section}[1.5em]{}{\bfseries\contentslabel{1.5em}}{\hspace*{-2.3em}}{\titlerule*{ }\bfseries\contentspage}
+\titleformat{\section}{\normalfont}{\large\bfseries\blatt.\thesection}{8pt}{\normalfont}
 
-\titlecontents{subsection}[2.5em]{}{}{}{\titlerule*{.}\contentspage}
-
-\titleformat{\section}{\normalfont}{\Large\bfseries\thesection.}{8pt}{\Large\bfseries}
-
-\titleformat{\subsection}[runin]{}{}{0pt}{\large\bfseries}
+\renewcommand{\thesubsection}{\alph{subsection}}
+\titleformat{\subsection}{\normalfont}{(\thesubsection)}{8pt}{\normalfont}
 % Sections betiteln
 
 \pagestyle{fancy}
 \rhead{\begin{tabular}{l r}
-  Name & Matrikelnummer\\
+  Falk Trittschanke & 10011108\\
   Lukas Hantzko     & 10011048
 \end{tabular}}
 \lhead{\begin{tabular}{l}
-  Physikpraktikum\\
-  {\bfseries Optische Bauelemente}
+  Hausübung \blatt\\
+  {\bfseries \fach}
 \end{tabular}}
 % Header
 
