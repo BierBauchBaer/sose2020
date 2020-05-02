@@ -1,5 +1,15 @@
 \section{Number operators}
-The Commutator calculates as follows
+The (Anti-)Commutator calculates as follows
 \begin{align}
-	\eOf{\op{N},\op{H}} & = \eOf{\sum\limits_i \dg{a}_i \op{a}_i,\sum\limits_{i,j} t_{ij}\dg{a}_i \op{a}_j + \frac{1}{2}\sum\limits_{i,j,k,l}V_{ijkl}\dg{a}_i\dg{a}_j\op{a}_l\op{a}_k}
+	\eOf{\op{N},\op{H}} & = \eOf{\sum\limits_i \dg{a}_i \op{a}_i,\sum\limits_{i,j} t_{ij}\dg{a}_i \op{a}_j + \frac{1}{2}\sum\limits_{i,j,k,l}V_{ijkl}\dg{a}_i\dg{a}_j\op{a}_l\op{a}_k} \\
+	& = \eOf{\sum\limits_i \dg{a}_i \op{a}_i,\sum\limits_{i,j} t_{ij}\dg{a}_i \op{a}_j} + \eOf{\sum\limits_i \dg{a}_i \op{a}_i,\frac{1}{2}\sum\limits_{i,j,k,l}V_{ijkl}\dg{a}_i\dg{a}_j\op{a}_l\op{a}_k} \\
+\end{align}
+The summands can be computed seperately
+\begin{align}
+	\eOf{\sum\limits_i \dg{a}_i \op{a}_i,\frac{1}{2}\sum\limits_{i,j,k,l}V_{ijkl}\dg{a}_i\dg{a}_j\op{a}_l\op{a}_k} & = \frac{1}{2}\sum\limits_i\sum\limits_{j,k,l,m}\eOf{\dg{a}_i\op{a}_i,V_{jklm}\dg{a}_j\dg{a}_k\op{a}_m\op{a}_l}\\
+	& = \frac{1}{2}\sum\limits_i\sum\limits_{j,k,l,m}V_{jklm} \eOf{\dg{a}_i\op{a}_i,\dg{a}_j\dg{a}_k\op{a}_m\op{a}_l} \\
+	& = \frac{1}{2}\sum\limits_i\sum\limits_{j,k,l,m}V_{jklm} \eOf{\dg{a}_i\op{a}_i,\dg{a}_j\dg{a}_k\op{a}_m\op{a}_l} 
+\end{align}
+\begin{align}
+	\eOf{\sum\limits_i \dg{a}_i \op{a}_i,\sum\limits_{i,j} t_{ij}\dg{a}_i \op{a}_j} & = \\
 \end{align}

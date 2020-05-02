@@ -1,7 +1,7 @@
 \section{}
 	Die stereographische Projektion (bzgl. dem Nordpol) sieht wie folgt aus:
 	\begin{align}
-		&f:\mathbb{S}\longrightarrow \mathbb{C} \union \{ \infty \}\cong\mathbb{C}P1\\
+		&f:\mathbb{S}\longrightarrow \mathbb{C} \cup \{ \infty \}\cong\mathbb{C}P1\\
 		&(x,y,z)\longmapsto 
 		\begin{cases}
             \frac{x+iy}{1-z} \widehat{=}\left[\frac{x+iy}{1-z},1\right] &,z \neq 1\\
@@ -10,14 +10,14 @@
 	\end{align}
 	Beh.: die Umkehrfunktion von f ist:
 	\begin{align}
-		&f^{-1}: \mathbb{C} \union \{ \infty \}\longrightarrow \mathbb{S}\\
-		&a+bi \longmapsto \frac{1}{a^2+b^2+1}\left( \begin{array}{c} 2a \\\ 2b \\\ a^2+b^2-1 \\\ \end{array}\right)\\
-		&\infty \longmapsto \left( \begin{array}{c} 0 \\\ 0 \\\ 1 \\\ \end{array}\right)
+		&f^{-1}: \mathbb{C} \cup \{ \infty \}\longrightarrow \mathbb{S}\\
+		&a+bi \longmapsto \frac{1}{a^2+b^2+1}\left( \begin{array}{c} 2a \\ 2b \\ a^2+b^2-1 \\ \end{array}\right)\\
+		&\infty \longmapsto \left( \begin{array}{c} 0 \\ 0 \\ 1 \\ \end{array}\right)
 	\end{align}
 	Beweis:
 	\begin{align}
-		&f \circ f^{-1}(\infty) = f(\left( \begin{array}{c} 0 \\\ 0 \\\ 1 \\\ \end{array}\right))=\infty \\
-		&f \circ f^{-1}(a+bi)=f(\frac{1}{a^2+b^2+1}\left( \begin{array}{c} 2a \\\ 2b \\\ a^2+b^2-1 \\\ \end{array}\right) )\\
+		&f \circ f^{-1}(\infty) = f(\left( \begin{array}{c} 0 \\ 0 \\ 1 \\ \end{array}\right))=\infty \\
+		&f \circ f^{-1}(a+bi)=f(\frac{1}{a^2+b^2+1}\left( \begin{array}{c} 2a \\ 2b \\ a^2+b^2-1 \\ \end{array}\right) )\\
 		&=\frac{\frac{2a}{a^2+b^2+1}}{1-\frac{a^2+b^2-1}{a^2+b^2+1}}+i\frac{\frac{2b}{a^2+b^2+1}}{1-\frac{a^2+b^2-1}{a^2+b^2+1}}\\
 		&=\frac{2a}{a^2+b^2+1}\frac{a^2+b^2+1}{2}+i\frac{2b}{a^2+b^2+1}\frac{a^2+b^2+1}{2}\\
 		&=a+bi

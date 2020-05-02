@@ -1,25 +1,15 @@
-\newcounter{topGrd}
-\setcounter{topGrd}{2}
-\section{Topologische Grundlagen \roman{topGrd}}
+\section{Topologische Grundlagen II}
 \subsection{Seien $M$, $N$ topologische Räume und $f:M\to N$ eine stetige surjektive Abbildung. Falls $M$ zusammenhängend ist, dann ist auch $N$ zusammenhängend.}
+Wenn $f$ eine surjektive Abbildung ist, hat jede Menge $A_n \in N$ ein Urbild unter $f$. Sei nun $B$ eine Menge in $N$ die offen und abgeschlossen ist. Dann ist das Urbild von $B$ offen, da $B$ offen ist und $f$ stetig ist, und das Urbild von $B^C$ ist offen, da $f$ stetig ist und $B$ abgeschlossen ist. Die Urbilder sind disjunkt, da die Mengen $B$ und $B^C$ disjunkt sind. Außerdem gilt: $f^{-1}\nOf{B} \cup f^{-1}\nOf{B^C} = M$. Damit ist $f^{-1}\nOf{B} = f^{-1}\nOf{B^C}^C$ und es gilt, dass $f^{-1}\nOf{B}$ offen und abgeschlossen ist. Da $M$ zusammenhängend ist, ist $f^{-1}\nOf{B}$ entweder $M$ oder $\emptyset$. Das Bild der leeren Menge ist leer, und da $f$ surjektiv ist, ist das Bild von $M$ $N$. Damit gilt $B=\emptyset$ oder $B = N$. Die einzigen Mengen die offen und abgeschlossen sind, sind $M$ und $\emptyset$. Damit ist $N$ zusammenhängend.
 
 
 \subsection{Gilt die Umkehrung der obigen Aussage?}
-
+Es gibt auch von $\mR$ nach $\mR$ unstetige Abbildungen (Gegenbeispiel, da $M=\mR$, $N=\mR$ zusammenhängend)
 
 \subsection{Welche Aussage aus Analysis I wird durch (a) verallgemeinert?}
+Dass die Mächtigkeiten nicht größer werden können?
 
 
 \subsection{Sei $M$ wegzusammenhängend. Zeigen Sie, dass $M$ auch zusammenhängend ist.} 
 Sei $M$ nicht zusammenhängend.
-Dann existieren $A_1, A_2 \in O_M$, die disjunkt sind und $A_1\cup A_2 = M$ erfüllen. Sei nun $\gamma$ ein beliebiger stetiger Weg von $a\in A_1$ nach $b\in A_2$, mit der Eigenschaft, dass $\gamma\nOf{t} \in M \,\forall\, t\in \eOf{0,1}$. Da $M$ offen ist, existiert für jeden Punkt auf $\gamma$ eine offene Umgebung $U\nOf{\gamma\nOf{t}}$ die in $M$ enthalten ist. Vereinigen wir nun, so muss folgende Menge in $O_M$ enthalten sein:
-\begin{equation}
-	A \mDef \bigcup\limits_{t\in\eOf{0,1}} U\nOf{\gamma\nOf{t}} \in O_M
-\end{equation}
-Nun gilt:
-\begin{align}
-	A \cap A_1 & \neq \emptyset \\
-	A \cap A_2 & \neq \emptyset \\
-	A_1 \cup A_2 & = M \\
-	A_1 \cap A_2 & = \emptyset \\
-	A \subset M \\
+Dann existieren $A_1, A_2 \in O_M$, die disjunkt sind und $A_1\cup A_2 = M$ erfüllen. Sei nun $\gamma$ ein beliebiger stetiger Weg von $a\in A_1$ nach $b\in A_2$, mit der Eigenschaft, dass $\gamma\nOf{t} \in M \,\forall\, t\in \eOf{0,1}$. Mit der Teilraumtopologie sind nun $G_1 = \gamma\nOf{\eOf{0,1}}\cap A_1$ und $G_2 = \gamma\nOf{\eOf{0,1}}\cap A_2$ offene Mengen. Ihr Urbild ist nach der Vorraussetzung, dass $\gamma$ stetig ist offen. Da die beiden Urbilder disjunkt und offen sind, ist $R = \eOf{0,1}\cap\nOf{G_1\cup G_2}$ eine nichtleere abgeschlossene Menge. $\gamma\nOf{R}$ ist somit eine Menge in $M$ die disjunkt zu $A_1$ und $A_2$ ist. Damit kann $A_1\cup A_2 = M$ nicht erfüllt sein.
